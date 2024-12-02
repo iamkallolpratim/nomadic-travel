@@ -1,5 +1,6 @@
 import React from "react";
 import { Check } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 interface PricingTierProps {
   type: "budget" | "premium" | "luxury";
@@ -27,6 +28,7 @@ const tiers = {
 
 export function PricingTier({ type, price, features }: PricingTierProps) {
   const tier = tiers[type];
+  const navigate = useNavigate();
 
   return (
     <div className="flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10">
@@ -68,7 +70,7 @@ export function PricingTier({ type, price, features }: PricingTierProps) {
         </ul>
       </div>
       <button
-        onClick={() => (window.location.href = "/contact")}
+        onClick={() => navigate(`/contact`)}
         type="button"
         className={`mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${tier.color}`}
       >
