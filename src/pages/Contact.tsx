@@ -34,7 +34,7 @@ export default function Contact() {
                       href="tel:+919876543210"
                       className="text-base text-gray-900 hover:text-green-600"
                     >
-                      +91 99574 06404
+                      +91 6000060220
                     </a>
                   </dd>
                 </div>
@@ -47,10 +47,10 @@ export default function Contact() {
                   </dt>
                   <dd>
                     <a
-                      href="mailto:nomadictravel@gmail.com"
+                      href="mailto:nomadictravel.zeemi@gmail.com"
                       className="text-base text-gray-900 hover:text-green-600"
                     >
-                      nomadictravel@gmail.com
+                      nomadictravel.zeemi@gmail.com
                     </a>
                   </dd>
                 </div>
