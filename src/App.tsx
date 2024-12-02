@@ -36,7 +36,7 @@ function App() {
 
 export const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
   phoneNumber,
-  message = "Hello Nomadic Travel! I want to book one of your tourism package",
+  message = "Hello Nomadic Travel! I want to book one of your tourism packages",
 }) => {
   const handleClick = () => {
     const encodedMessage = encodeURIComponent(message);
