@@ -31,7 +31,10 @@ export default function About() {
                 <button
                   className="bg-red-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                   onClick={() =>
-                    window.open("https://www.youtube.com/@zeemi", "_blank")
+                    window.open(
+                      "https://www.youtube.com/@zeemiwalker",
+                      "_blank"
+                    )
                   }
                 >
                   Youtube

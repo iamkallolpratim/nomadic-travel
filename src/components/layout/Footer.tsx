@@ -82,12 +82,13 @@ export function Footer() {
                   label: "Youtube",
                   url: "https://www.youtube.com/@zeemiwalker",
                 },
-              ].map(({ Icon, label }) => (
+              ].map(({ Icon, label, url }) => (
                 <a
                   key={label}
-                  href="#"
+                  href={url}
                   className="text-gray-300 hover:text-green-500"
                   aria-label={label}
+                  target="_blank"
                 >
                   <Icon className="h-6 w-6" />
                 </a>
