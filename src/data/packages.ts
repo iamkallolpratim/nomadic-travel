@@ -3,7 +3,7 @@ import { Package } from "../types";
 export const packages: Package[] = [
   {
     id: "classic-kaziranga",
-    title: "Premium Kaziranga Tour",
+    title: "Kaziranga National Park Tour",
     description:
       "Experience the magic of Kaziranga with our most popular package featuring jeep safaris, elephant rides, and cultural experiences.",
     duration: "3 Days / 2 Nights",
@@ -49,8 +49,8 @@ export const packages: Package[] = [
       "https://media.assettype.com/outlooktraveller%2F2023-10%2F5b58aa6a-cfcb-45a1-ad9f-5bad3b8984ee%2F106554149_744865456346625_1735154775456169959_n.jpg?w=1024&auto=format%2Ccompress&fit=max",
   },
   {
-    id: "deehing-patkai-tour",
-    title: "Deehing patkai tour",
+    id: "dehing-patkai-tour",
+    title: "Dehing Patkai National Park tour",
     description:
       "Explore the pristine wilderness of Dihing Patkai National Park, home to lush rainforests, diverse wildlife, and rich biodiversity. Perfect for nature enthusiasts and adventure seekers",
     duration: "4 Days / 3 Nights",
