@@ -7,16 +7,28 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["lucide-react"],
   },
+  server: {
+    // Use Vite's built-in history fallback middleware
+    port: 3000,
+    open: true,
+    cors: true,
+    fs: {
+      strict: false,
+    },
+    hmr: {
+      overlay: true,
+    },
+  },
   build: {
-    // Ensure fallback works in the production build
     rollupOptions: {
       output: {
-        // Configure output settings if needed
+        // Customize output settings if necessary
       },
     },
   },
-  // Ensure preview also serves index.html for all routes
   preview: {
-    headers: {},
+    port: 5000,
+    open: true,
+    cors: true,
   },
 });
