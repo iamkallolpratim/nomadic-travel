@@ -62,7 +62,7 @@ export default function Contact() {
                     />
                   </dt>
                   <dd className="text-base text-gray-900">
-                    123 Tourism Road, Kaziranga, Assam
+                    Senduri Ali, Jonali, Guwahati , Assam, 781024
                   </dd>
                 </div>
               </dl>

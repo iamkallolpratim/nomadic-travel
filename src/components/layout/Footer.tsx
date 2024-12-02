@@ -47,7 +47,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2">
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <MapPin className="h-4 w-4" />
-                <span>123 Tourism Road, Kaziranga, Assam</span>
+                <span>Senduri Ali, Jonali, Guwahati , Assam, 781024</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-300">
                 <Phone className="h-4 w-4" />
