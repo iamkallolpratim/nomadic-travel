@@ -7,11 +7,11 @@ export const packages: Package[] = [
     description:
       "Experience the magic of Kaziranga with our most popular package featuring jeep safaris, elephant rides, and cultural experiences.",
     duration: "3 Days / 2 Nights",
-    price: {
-      budget: 12999,
-      premium: 19999,
-      luxury: 29999,
-    },
+    // price: {
+    //   budget: 12999,
+    //   premium: 19999,
+    //   luxury: 29999,
+    // },
     highlights: [
       "Early morning elephant safari",
       "Jeep safari in all ranges",
@@ -54,11 +54,11 @@ export const packages: Package[] = [
     description:
       "Explore the pristine wilderness of Dihing Patkai National Park, home to lush rainforests, diverse wildlife, and rich biodiversity. Perfect for nature enthusiasts and adventure seekers",
     duration: "4 Days / 3 Nights",
-    price: {
-      budget: 19999,
-      premium: 29999,
-      luxury: 39999,
-    },
+    // price: {
+    //   budget: 19999,
+    //   premium: 29999,
+    //   luxury: 39999,
+    // },
     highlights: [
       "Guided treks through lush rainforests",
       "Birdwatching and wildlife spotting",
@@ -109,11 +109,11 @@ export const packages: Package[] = [
     description:
       "Discover the diverse ecosystems of Dibru Saikhowa National Park, featuring unique wildlife, vibrant birdlife, and rich cultural heritage. Ideal for wildlife enthusiasts and nature explorers.",
     duration: "4 Days / 3 Nights",
-    price: {
-      budget: 19999,
-      premium: 29999,
-      luxury: 39999,
-    },
+    // price: {
+    //   budget: 19999,
+    //   premium: 29999,
+    //   luxury: 39999,
+    // },
     highlights: [
       "Rare feral horse sightings",
       "Birdwatching for exotic species",

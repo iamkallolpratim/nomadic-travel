@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { Package } from "../../types";
 import { PricingTier } from "./PricingTier";
@@ -75,7 +76,7 @@ export function PackageDetails({ package: pkg }: PackageDetailsProps) {
         </div>
 
         {/* Pricing */}
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <h2 className="text-2xl font-bold text-gray-900">Package Options</h2>
           <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-3">
             <PricingTier
@@ -94,7 +95,7 @@ export function PackageDetails({ package: pkg }: PackageDetailsProps) {
               features={pkg.included}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

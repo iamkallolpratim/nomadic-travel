@@ -3,7 +3,7 @@ export interface Package {
   title: string;
   description: string;
   duration: string;
-  price: {
+  price?: {
     budget: number;
     premium: number;
     luxury: number;
