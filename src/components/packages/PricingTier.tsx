@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 interface PricingTierProps {
   type: "budget" | "premium" | "luxury";
-  price: number;
+  price?: number;
   features: string[];
 }
 
@@ -46,14 +46,14 @@ export function PricingTier({ type, price, features }: PricingTierProps) {
         <p className="mt-4 text-sm leading-6 text-gray-600">
           {tier.description}
         </p>
-        <p className="mt-6 flex items-baseline gap-x-1">
+        {/* <p className="mt-6 flex items-baseline gap-x-1">
           <span className="text-4xl font-bold tracking-tight text-gray-900">
             ₹{price.toLocaleString()}
           </span>
           <span className="text-sm font-semibold leading-6 text-gray-600">
             /person
           </span>
-        </p>
+        </p> */}
         <ul
           role="list"
           className="mt-8 space-y-3 text-sm leading-6 text-gray-600"
