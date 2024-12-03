@@ -71,9 +71,9 @@ export default function Contact() {
 
           <div className="space-y-6">
             <iframe
+              height={"1200px"}
               style={{
                 width: "100%",
-                height: "1100px",
               }}
               src="https://docs.google.com/forms/d/e/1FAIpQLSdNpOFj40o9qX5vozZdMjl698Z-oLsGCcLIqXjenTxHPAVFeQ/viewform?embedded=true"
             >
