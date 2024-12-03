@@ -73,7 +73,7 @@ export default function Contact() {
             <iframe
               style={{
                 width: "100%",
-                height: "992px",
+                height: "1050px",
               }}
               src="https://docs.google.com/forms/d/e/1FAIpQLSdNpOFj40o9qX5vozZdMjl698Z-oLsGCcLIqXjenTxHPAVFeQ/viewform?embedded=true"
             >
