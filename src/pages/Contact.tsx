@@ -16,7 +16,7 @@ export default function Contact() {
         </div>
 
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:mt-24 lg:max-w-none lg:grid-cols-2">
-          <div className="space-y-8">
+          <div className="space-y-6">
             <div>
               <h2 className="text-2xl font-bold tracking-tight text-gray-900">
                 Contact Information
@@ -73,7 +73,7 @@ export default function Contact() {
             <iframe
               style={{
                 width: "100%",
-                height: "1050px",
+                height: "1100px",
               }}
               src="https://docs.google.com/forms/d/e/1FAIpQLSdNpOFj40o9qX5vozZdMjl698Z-oLsGCcLIqXjenTxHPAVFeQ/viewform?embedded=true"
             >
