@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import Logo from "../../assets/logo.png";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -21,7 +22,7 @@ export function Header() {
             to="/"
             className="-m-1.5 p-1.5 text-2xl font-bold text-green-700"
           >
-            Nomadic Travel
+            <img src={Logo} alt="Nomadic Travel" className="h-10 w-auto" />
           </Link>
         </div>
         <div className="flex lg:hidden">

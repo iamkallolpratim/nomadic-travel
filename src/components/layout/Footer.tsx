@@ -9,6 +9,7 @@ import {
   X,
   Youtube,
 } from "lucide-react";
+import Logo from "../../assets/logo.png";
 
 export function Footer() {
   return (
@@ -17,7 +18,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           <div>
             <h2 className="text-2xl font-bold text-green-500">
-              Nomadic Travel
+              <img src={Logo} alt="Nomadic Travel" className="w-20 h-auto" />
             </h2>
             <p className="mt-4 text-sm text-gray-300">
               Your gateway to experiencing the magnificent wildlife and culture
