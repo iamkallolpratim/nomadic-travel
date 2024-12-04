@@ -59,49 +59,49 @@ export function Header() {
         </div>
       </nav>
 
-      {/* Mobile menu */}
-      {mobileMenuOpen && (
-        <div className="lg:hidden">
-          <div className="fixed inset-0 z-50">
-            <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-              <div className="flex items-center justify-between">
-                <Link to="/" className="-m-1.5 p-1.5">
-                  <span className="text-2xl font-bold text-green-700">
-                    <img
-                      src={Logo}
-                      alt="Nomadic Travel"
-                      className="h-10 w-auto"
-                    />
-                  </span>
-                </Link>
-                <button
-                  type="button"
-                  className="-m-2.5 rounded-md p-2.5 text-gray-700"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <X className="h-6 w-6" aria-hidden="true" />
-                </button>
-              </div>
-              <div className="mt-6 flow-root">
-                <div className="-my-6 divide-y divide-gray-500/10">
-                  <div className="space-y-2 py-6">
-                    {navigation.map((item) => (
-                      <Link
-                        key={item.name}
-                        to={item.href}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                        onClick={() => setMobileMenuOpen(false)}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
+      {/* Mobile sidebar menu */}
+      <div
+        className={`fixed inset-0 z-50 transform transition-transform duration-300 ease-in-out bg-white h-full ${
+          mobileMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div
+          className="fixed inset-0"
+          onClick={() => setMobileMenuOpen(false)}
+        ></div>
+        <div className="fixed right-0 top-0 h-full w-80 bg-white shadow-lg">
+          <div className="flex items-center justify-between p-6">
+            <Link to="/" className="-m-1.5 p-1.5">
+              <span className="text-2xl font-bold text-green-700">
+                <img src={Logo} alt="Nomadic Travel" className="h-10 w-auto" />
+              </span>
+            </Link>
+            <button
+              type="button"
+              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              <X className="h-6 w-6" aria-hidden="true" />
+            </button>
+          </div>
+          <div className="mt-0 flow-root p-6 bg-white shadow-lg">
+            <div className="-my-6 divide-y divide-gray-500/10">
+              <div className="space-y-2 py-6">
+                {navigation.map((item) => (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }
