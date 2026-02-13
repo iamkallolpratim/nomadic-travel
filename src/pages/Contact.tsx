@@ -50,7 +50,7 @@ export default function Contact() {
                       href="mailto:nomadictravel.zeemi@gmail.com"
                       className="text-base text-gray-900 hover:text-green-600"
                     >
-                      nomadictravel.zeemi@gmail.com
+                      contact@nomadictravel.co.in
                     </a>
                   </dd>
                 </div>
