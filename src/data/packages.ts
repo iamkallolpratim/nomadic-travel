@@ -7,11 +7,6 @@ export const packages: Package[] = [
     description:
       "Experience the magic of Kaziranga with our most popular package featuring jeep safaris, elephant rides, and cultural experiences.",
     duration: "3 Days / 2 Nights",
-    // price: {
-    //   budget: 12999,
-    //   premium: 19999,
-    //   luxury: 29999,
-    // },
     highlights: [
       "Early morning elephant safari",
       "Jeep safari in all ranges",
@@ -54,11 +49,6 @@ export const packages: Package[] = [
     description:
       "Explore the pristine wilderness of Dihing Patkai National Park, home to lush rainforests, diverse wildlife, and rich biodiversity. Perfect for nature enthusiasts and adventure seekers",
     duration: "4 Days / 3 Nights",
-    // price: {
-    //   budget: 19999,
-    //   premium: 29999,
-    //   luxury: 39999,
-    // },
     highlights: [
       "Guided treks through lush rainforests",
       "Birdwatching and wildlife spotting",
@@ -102,18 +92,12 @@ export const packages: Package[] = [
     image:
       "https://i0.wp.com/naturesbeckon.org/wp-content/uploads/2020/08/dpwls.jpg?resize=1024%2C576&ssl=1",
   },
-
   {
     id: "dibru-saikhowa-tour",
     title: "Dibru Saikhowa National Park Tour",
     description:
       "Discover the diverse ecosystems of Dibru Saikhowa National Park, featuring unique wildlife, vibrant birdlife, and rich cultural heritage. Ideal for wildlife enthusiasts and nature explorers.",
     duration: "4 Days / 3 Nights",
-    // price: {
-    //   budget: 19999,
-    //   premium: 29999,
-    //   luxury: 39999,
-    // },
     highlights: [
       "Rare feral horse sightings",
       "Birdwatching for exotic species",
@@ -156,5 +140,340 @@ export const packages: Package[] = [
     ],
     image:
       "https://i.pinimg.com/736x/dc/f6/2f/dcf62f1587d38ac4c0afc8d1dcb2250b.jpg",
+  },
+
+  // ==================== NEW PACKAGES ====================
+
+  {
+    id: "tawang-tour",
+    title: "Tawang Monastery & Himalayan Tour",
+    description:
+      "Discover India's largest monastery, high-altitude passes, glacial lakes, and the rich Monpa Buddhist culture in the breathtaking landscapes of Arunachal Pradesh.",
+    duration: "5 Days / 4 Nights",
+    highlights: [
+      "Visit the iconic Tawang Monastery",
+      "Drive across Sela Pass & Bumla Pass",
+      "Boating at Madhuri Lake (Sangestar Tso)",
+      "Monpa tribal villages & local cuisine",
+      "Snow-capped Himalayan views",
+    ],
+    included: [
+      "Comfortable hotel/guest-house accommodation",
+      "All meals with local Monpa dishes",
+      "Expert local guide & permits",
+      "4x4 transportation",
+      "Entrance fees to all sites",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Tawang",
+        description:
+          "Arrive from Tezpur/Guwahati, check-in, evening visit to Tawang Monastery.",
+      },
+      {
+        day: 2,
+        title: "Sela Pass & Madhuri Lake",
+        description:
+          "Full-day excursion to Sela Pass and Madhuri Lake with scenic stops.",
+      },
+      {
+        day: 3,
+        title: "Bumla Pass Excursion",
+        description:
+          "Drive to Bumla Pass (Indo-China border area) – subject to weather and permits.",
+      },
+      {
+        day: 4,
+        title: "Local Culture & Monasteries",
+        description:
+          "Visit smaller monasteries, war memorial, and Monpa villages.",
+      },
+      {
+        day: 5,
+        title: "Departure",
+        description: "Morning free for shopping, then departure.",
+      },
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tawang_Monastery.jpg",
+  },
+  {
+    id: "nagaland-tour",
+    title: "Nagaland Tribal & Cultural Tour",
+    description:
+      "Immerse in the vibrant Naga tribal culture, traditional villages, war history, and scenic hills of Nagaland – the land of festivals and warriors.",
+    duration: "5 Days / 4 Nights",
+    highlights: [
+      "Kohima War Cemetery & State Museum",
+      "Traditional Naga villages & longhouses",
+      "Naga tribal dances & local cuisine",
+      "Hornbill Festival ground (seasonal)",
+      "Scenic Naga hills & viewpoints",
+    ],
+    included: [
+      "Hotel accommodation in Kohima & villages",
+      "All meals featuring authentic Naga cuisine",
+      "Local tribal guide",
+      "Transportation",
+      "Cultural permits",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Kohima",
+        description:
+          "Arrive, check-in, visit Kohima War Cemetery and State Museum.",
+      },
+      {
+        day: 2,
+        title: "Naga Village Exploration",
+        description:
+          "Full day visiting traditional villages like Khonoma or Dzukou Valley area.",
+      },
+      {
+        day: 3,
+        title: "Cultural Immersion",
+        description:
+          "Experience tribal dances, handicrafts, and local markets in Kohima.",
+      },
+      {
+        day: 4,
+        title: "Scenic Hills & Optional Trek",
+        description:
+          "Drive to scenic viewpoints or short trek in the surrounding hills.",
+      },
+      {
+        day: 5,
+        title: "Departure",
+        description: "Morning free, then departure.",
+      },
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hornbill_Festival_2017.jpg",
+  },
+  {
+    id: "anini-tour",
+    title: "Anini & Dibang Valley Adventure",
+    description:
+      "Explore the remote and pristine Dibang Valley around Anini – home to Mishmi tribes, dense forests, and dramatic Himalayan foothills.",
+    duration: "5 Days / 4 Nights",
+    highlights: [
+      "Mishmi tribal villages & culture",
+      "Dibang Wildlife Sanctuary exploration",
+      "Scenic drives through remote valleys",
+      "Birdwatching & butterfly spotting",
+      "Trekking in pristine Himalayan foothills",
+    ],
+    included: [
+      "Eco-lodge / guest-house accommodation",
+      "All meals with local Mishmi cuisine",
+      "Expert local guide & permits",
+      "4x4 transportation",
+      "All entry fees",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Anini",
+        description:
+          "Arrive from Roing/Tezu, check-in, orientation and short village walk.",
+      },
+      {
+        day: 2,
+        title: "Dibang Valley Exploration",
+        description:
+          "Full-day drive and short treks in the valley with wildlife spotting.",
+      },
+      {
+        day: 3,
+        title: "Mishmi Culture Day",
+        description:
+          "Visit Mishmi villages, interact with locals, and learn traditional crafts.",
+      },
+      {
+        day: 4,
+        title: "Sanctuary & Nature Walk",
+        description:
+          "Guided walk in Dibang Wildlife Sanctuary area and scenic viewpoints.",
+      },
+      {
+        day: 5,
+        title: "Departure",
+        description: "Morning free, then departure to Roing/Tezu.",
+      },
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Arunachal_Pradesh_hills.jpg",
+  },
+  {
+    id: "cherrapunji-tour",
+    title: "Cherrapunji Waterfalls & Caves Tour",
+    description:
+      "Experience the wettest place on Earth with majestic waterfalls, limestone caves, and living root bridges in Cherrapunji (Sohra), Meghalaya.",
+    duration: "3 Days / 2 Nights",
+    highlights: [
+      "Nohkalikai Falls – the tallest plunge waterfall",
+      "Seven Sisters Falls viewpoint",
+      "Mawsmai & Krem Phyllut caves",
+      "Living root bridges (nearby Mawlynnong)",
+      "Rainforest walks & viewpoints",
+    ],
+    included: [
+      "Eco-lodge accommodation in Cherrapunji",
+      "All meals",
+      "Local guide",
+      "Transportation",
+      "Entry fees & permits",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Nohkalikai",
+        description:
+          "Arrive from Shillong, check-in, visit Nohkalikai Falls and viewpoints.",
+      },
+      {
+        day: 2,
+        title: "Caves & Seven Sisters",
+        description:
+          "Full day exploring Mawsmai Cave and Seven Sisters Falls viewpoint.",
+      },
+      {
+        day: 3,
+        title: "Root Bridge & Departure",
+        description:
+          "Morning visit to nearby living root bridge area, then departure.",
+      },
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Nohkalikai_Falls.jpg",
+  },
+  {
+    id: "meghalaya-tour",
+    title: "Meghalaya Living Root Bridges Tour",
+    description:
+      "Discover the unique living root bridges, cleanest villages, misty hills, and rich Khasi culture of Meghalaya.",
+    duration: "4 Days / 3 Nights",
+    highlights: [
+      "Famous living root bridges (Mawlynnong & others)",
+      "Asia’s cleanest village – Mawlynnong",
+      "Cloudy hill station views",
+      "Khasi tribal culture & markets",
+      "Short rainforest treks",
+    ],
+    included: [
+      "Eco-friendly homestay / lodge accommodation",
+      "All meals with local Khasi cuisine",
+      "Local guide",
+      "Transportation",
+      "Entry fees",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & Mawlynnong",
+        description:
+          "Arrive from Shillong, check-in, explore Asia’s cleanest village and root bridge.",
+      },
+      {
+        day: 2,
+        title: "Root Bridge Trek",
+        description:
+          "Full-day trek to the iconic double-decker living root bridge.",
+      },
+      {
+        day: 3,
+        title: "Surrounding Villages & Culture",
+        description:
+          "Visit nearby villages, Khasi markets, and cultural experiences.",
+      },
+      {
+        day: 4,
+        title: "Departure",
+        description: "Morning free, then departure.",
+      },
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Living_root_bridge.jpg",
+  },
+  {
+    id: "dawki-tour",
+    title: "Dawki Crystal River Tour",
+    description:
+      "Boat on the unbelievably clear Umngot River in Dawki and enjoy the turquoise waters and dramatic cliffs of Meghalaya.",
+    duration: "3 Days / 2 Nights",
+    highlights: [
+      "Boating on the crystal-clear Umngot River",
+      "Stunning cliff and mountain scenery",
+      "Living root bridges nearby",
+      "Border area views (Indo-Bangladesh)",
+      "Peaceful riverside relaxation",
+    ],
+    included: [
+      "Riverside cottage / homestay accommodation",
+      "All meals",
+      "Local boat guide",
+      "Transportation",
+      "Boat ride charges",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & River Cruise",
+        description:
+          "Arrive from Shillong, check-in, sunset boat ride on Umngot River.",
+      },
+      {
+        day: 2,
+        title: "Full Day on the River",
+        description:
+          "Morning and afternoon boating, explore nearby root bridges and cliffs.",
+      },
+      {
+        day: 3,
+        title: "Morning Boat & Departure",
+        description:
+          "Early morning boat ride, then departure after breakfast.",
+      },
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Umngot_River.jpg",
+  },
+  {
+    id: "shillong-tour",
+    title: "Shillong Hill Station Tour",
+    description:
+      "Explore the ‘Scotland of the East’ – Shillong with its lakes, waterfalls, pine forests, and vibrant markets in Meghalaya.",
+    duration: "3 Days / 2 Nights",
+    highlights: [
+      "Ward’s Lake & Lady Hydari Park",
+      "Elephant Falls",
+      "Shillong Peak panoramic views",
+      "Local markets & pine forests",
+      "Don Bosco Museum (optional)",
+    ],
+    included: [
+      "Hotel accommodation in Shillong",
+      "All meals",
+      "Local guide",
+      "Transportation",
+      "Entry fees",
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival & City Tour",
+        description:
+          "Arrive, check-in, visit Ward’s Lake, Lady Hydari Park, and local market.",
+      },
+      {
+        day: 2,
+        title: "Waterfalls & Peak",
+        description:
+          "Full day – Elephant Falls, Shillong Peak, and pine forest drive.",
+      },
+      {
+        day: 3,
+        title: "Morning Free & Departure",
+        description:
+          "Morning free for shopping or optional museum, then departure.",
+      },
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Elephant_Falls,_Shillong.jpg",
   },
 ];
