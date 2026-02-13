@@ -432,7 +432,7 @@ export const packages: Package[] = [
           "Early morning boat ride, then departure after breakfast.",
       },
     ],
-    image: "	https://backpackersunited.in/_next/image?url=https…70_amit-jain-FYGEA9aezAw-unsplash.jpg&w=1920&q=75",
+    image: "https://nomadicweekends.com/blog/wp-content/uploads/2019/09/66851483_2355591914534526_8824396371357335552_o.jpg",
   },
   {
     id: "shillong-tour",
