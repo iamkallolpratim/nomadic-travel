@@ -195,7 +195,7 @@ export const packages: Package[] = [
         description: "Morning free for shopping, then departure.",
       },
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tawang_Monastery.jpg",
+    image: "https://images.unsplash.com/photo-1628070018796-a9f4e2dd482a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: "nagaland-tour",
@@ -248,7 +248,7 @@ export const packages: Package[] = [
         description: "Morning free, then departure.",
       },
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hornbill_Festival_2017.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/47/Hornbill_Festival.jpg",
   },
   {
     id: "anini-tour",
@@ -301,7 +301,7 @@ export const packages: Package[] = [
         description: "Morning free, then departure to Roing/Tezu.",
       },
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Arunachal_Pradesh_hills.jpg",
+    image: "https://northeastexplorers.in/wp-content/uploads/2023/10/Chigu-Camp-scaled.jpg",
   },
   {
     id: "cherrapunji-tour",
@@ -343,7 +343,7 @@ export const packages: Package[] = [
           "Morning visit to nearby living root bridge area, then departure.",
       },
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Nohkalikai_Falls.jpg",
+    image: "https://images.financialexpressdigital.com/2022/06/cherrapunji_waterfalls_759.jpg?quality=100",
   },
   {
     id: "meghalaya-tour",
@@ -390,7 +390,7 @@ export const packages: Package[] = [
         description: "Morning free, then departure.",
       },
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Living_root_bridge.jpg",
+    image: "https://i.natgeofe.com/n/ace1e947-3cd7-41c7-9959-0a2c825dd0c2/school-boys-living-root-bridge-meghalaya-india.jpg",
   },
   {
     id: "dawki-tour",
@@ -432,7 +432,7 @@ export const packages: Package[] = [
           "Early morning boat ride, then departure after breakfast.",
       },
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Umngot_River.jpg",
+    image: "	https://backpackersunited.in/_next/image?url=https…70_amit-jain-FYGEA9aezAw-unsplash.jpg&w=1920&q=75",
   },
   {
     id: "shillong-tour",
@@ -474,6 +474,6 @@ export const packages: Package[] = [
           "Morning free for shopping or optional museum, then departure.",
       },
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Elephant_Falls,_Shillong.jpg",
+    image: "https://www.nielit.gov.in/sites/default/files/Shillong/s1.jpg",
   },
 ];
