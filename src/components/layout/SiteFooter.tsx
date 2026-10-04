@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Star } from "lucide-react";
 import { site } from "@/data/site";
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/ui/SocialIcons";
 
@@ -25,6 +26,17 @@ export function SiteFooter() {
   return (
     <footer className="col pb-24 pt-6 text-center text-xs text-slate-600">
       <Socials />
+      <a
+        href={site.googleReviewUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mx-auto mt-2 inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-[13px] font-semibold text-forest-900 shadow-sm ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:shadow-md"
+      >
+        <span className="flex text-amber-500" aria-hidden>
+          {[0, 1, 2, 3, 4].map((i) => <Star key={i} className="h-3.5 w-3.5 fill-current" />)}
+        </span>
+        Rate us on Google
+      </a>
       <nav aria-label="Footer" className="mt-2 flex flex-wrap justify-center gap-x-1 font-medium text-forest-800">
         <Link href="/tours" className="inline-block px-2 py-1.5 hover:underline">Tours</Link>
         <Link href="/activities" className="inline-block px-2 py-1.5 hover:underline">Activities</Link>

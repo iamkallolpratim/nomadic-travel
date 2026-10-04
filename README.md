@@ -290,7 +290,7 @@ Configured in `next.config.ts` with HTTP **301**:
 
 **Google Business Profile** (from contact@nomadictravel.co.in)
 - [ ] Create/claim at business.google.com: name **Nomadic Travel**, category **Travel agency** (+ Tour operator).
-- [ ] Address exactly as on the site: *House No 72, Senduri Ali, Jonali, Guwahati, Assam 781024*; phone **+91 60000 60220**; website; hours 9:00–20:00.
+- [ ] Address exactly as on the site: *Patarkuchi Road, Basistha, Guwahati, Assam 781029*; phone **+91 60000 60220**; website; hours 9:00–20:00.
 - [ ] Verify (postcard/phone/video), add photos, services (state tours), and the WhatsApp number.
 - [ ] Ask happy guests for reviews; add genuine ones to `src/data/testimonials.ts`.
 - [ ] Keep NAP identical everywhere (site footer, schema, GBP, social profiles, directories).
