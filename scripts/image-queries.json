@@ -1,0 +1,535 @@
+{
+ "place:kaziranga-national-park": [
+  "Kaziranga National Park rhinoceros",
+  "Kaziranga grassland",
+  "Kaziranga National Park"
+ ],
+ "place:majuli-island": [
+  "Majuli island",
+  "Majuli satra",
+  "Majuli Brahmaputra"
+ ],
+ "place:kamakhya-temple": [
+  "Kamakhya Temple Guwahati",
+  "Kamakhya temple"
+ ],
+ "place:umananda-island": [
+  "Umananda island",
+  "Umananda temple"
+ ],
+ "place:manas-national-park": [
+  "Manas National Park",
+  "Manas river Assam"
+ ],
+ "place:pobitora-wildlife-sanctuary": [
+  "Pobitora Wildlife Sanctuary",
+  "Pobitora rhino"
+ ],
+ "place:sivasagar": [
+  "Rang Ghar Sivasagar",
+  "Sivadol Sivasagar",
+  "Talatal Ghar"
+ ],
+ "place:dibru-saikhowa-national-park": [
+  "Dibru-Saikhowa National Park",
+  "Dibru Saikhowa feral horses"
+ ],
+ "place:haflong": [
+  "Haflong",
+  "Haflong lake",
+  "Dima Hasao hills"
+ ],
+ "place:hajo": [
+  "Hayagriva Madhava temple Hajo",
+  "Hajo Assam"
+ ],
+ "place:sualkuchi": [
+  "Sualkuchi",
+  "Sualkuchi silk loom"
+ ],
+ "place:tezpur": [
+  "Agnigarh Tezpur",
+  "Tezpur",
+  "Kolia Bhomora Setu"
+ ],
+ "place:jorhat-tea-estates": [
+  "Jorhat tea garden",
+  "Assam tea garden",
+  "Tocklai"
+ ],
+ "place:nameri-national-park": [
+  "Nameri National Park",
+  "Jia Bhoroli river"
+ ],
+ "place:dehing-patkai-national-park": [
+  "Dehing Patkai",
+  "Dehing Patkai rainforest"
+ ],
+ "place:tawang-monastery": [
+  "Tawang Monastery",
+  "Tawang monastery Arunachal"
+ ],
+ "place:sela-pass": [
+  "Sela Pass",
+  "Sela lake Arunachal"
+ ],
+ "place:madhuri-lake": [
+  "Sangetsar lake",
+  "Madhuri lake Tawang",
+  "Shungatser"
+ ],
+ "place:bum-la-pass": [
+  "Bum La pass",
+  "Bumla Tawang"
+ ],
+ "place:nuranang-falls": [
+  "Nuranang falls",
+  "Jang falls Tawang",
+  "Bong Bong falls"
+ ],
+ "place:bomdila": [
+  "Bomdila",
+  "Bomdila monastery"
+ ],
+ "place:dirang": [
+  "Dirang",
+  "Dirang Dzong",
+  "Dirang valley"
+ ],
+ "place:ziro-valley": [
+  "Ziro valley",
+  "Ziro Arunachal",
+  "Ziro paddy"
+ ],
+ "place:mechuka": [
+  "Mechuka",
+  "Menchukha",
+  "Mechuka valley"
+ ],
+ "place:namdapha-national-park": [
+  "Namdapha National Park",
+  "Namdapha",
+  "Noa Dihing river"
+ ],
+ "place:mayudia-roing": [
+  "Mayodia pass",
+  "Mayudia",
+  "Roing Arunachal"
+ ],
+ "place:pasighat": [
+  "Pasighat",
+  "Siang river Pasighat",
+  "Siang river"
+ ],
+ "place:bhalukpong": [
+  "Bhalukpong",
+  "Kameng river",
+  "Tipi orchid"
+ ],
+ "place:itanagar": [
+  "Itanagar",
+  "Ita Fort",
+  "Ganga lake Itanagar"
+ ],
+ "place:parshuram-kund": [
+  "Parshuram Kund",
+  "Parasuram Kund Lohit"
+ ],
+ "place:anini-dibang-valley": [
+  "Anini",
+  "Dibang Valley",
+  "Dibang river"
+ ],
+ "place:shillong": [
+  "Ward's Lake Shillong",
+  "Shillong Peak view",
+  "Police Bazaar Shillong",
+  "Shillong city"
+ ],
+ "place:sohra-cherrapunji": [
+  "Cherrapunji",
+  "Sohra Meghalaya",
+  "Cherrapunjee landscape"
+ ],
+ "place:nohkalikai-falls": [
+  "Nohkalikai falls"
+ ],
+ "place:seven-sisters-falls": [
+  "Nohsngithiang falls",
+  "Seven Sisters Falls Meghalaya",
+  "Mawsmai falls"
+ ],
+ "place:double-decker-living-root-bridge": [
+  "Double decker living root bridge",
+  "Nongriat root bridge",
+  "Nongriat"
+ ],
+ "place:mawlynnong": [
+  "Mawlynnong",
+  "Mawlynnong village",
+  "Riwai root bridge"
+ ],
+ "place:dawki-umngot-river": [
+  "Umngot river",
+  "Dawki river",
+  "Dawki"
+ ],
+ "place:laitlum-canyons": [
+  "Laitlum",
+  "Laitlum canyon"
+ ],
+ "place:mawsmai-cave": [
+  "Mawsmai cave",
+  "Mawsmai"
+ ],
+ "place:mawphlang-sacred-forest": [
+  "Mawphlang sacred forest",
+  "Mawphlang"
+ ],
+ "place:elephant-falls": [
+  "Elephant Falls Shillong",
+  "Elephant falls Meghalaya"
+ ],
+ "place:krang-suri-falls": [
+  "Krang Suri falls",
+  "Krangsuri",
+  "Krangshuri"
+ ],
+ "place:shnongpdeng": [
+  "Shnongpdeng",
+  "Umngot Shnongpdeng"
+ ],
+ "place:nartiang-monoliths": [
+  "Nartiang monoliths",
+  "Nartiang menhir",
+  "Nartiang"
+ ],
+ "place:umiam-lake": [
+  "Umiam lake",
+  "Barapani lake"
+ ],
+ "place:kohima": [
+  "Kohima",
+  "Kohima town",
+  "Kohima cathedral"
+ ],
+ "place:kisama-heritage-village": [
+  "Kisama heritage village",
+  "Kisama",
+  "Hornbill festival Kisama"
+ ],
+ "place:kohima-war-cemetery": [
+  "Kohima War Cemetery",
+  "Kohima war memorial"
+ ],
+ "place:khonoma-village": [
+  "Khonoma",
+  "Khonoma village"
+ ],
+ "place:dzukou-valley": [
+  "Dzukou valley",
+  "Dzüko valley",
+  "Dzukou"
+ ],
+ "place:japfu-peak": [
+  "Japfu Nagaland",
+  "Japfü peak Kohima",
+  "Mount Japfü",
+  "Kigwema Japfu"
+ ],
+ "place:mokokchung": [
+  "Mokokchung",
+  "Ungma village",
+  "Mokokchung town"
+ ],
+ "place:mon-konyak": [
+  "Mon Nagaland",
+  "Konyak Naga",
+  "Mon district Nagaland"
+ ],
+ "place:longwa-village": [
+  "Longwa Nagaland",
+  "Lungwa village",
+  "Konyak village Mon",
+  "Konyak house"
+ ],
+ "place:kachari-ruins-dimapur": [
+  "Kachari Rajbari Dimapur",
+  "Kachari ruins Dimapur",
+  "Dimapur ruins"
+ ],
+ "place:touphema-village": [
+  "Touphema Nagaland",
+  "Tuophema village",
+  "Angami village Kohima",
+  "Kigwema"
+ ],
+ "place:pfutsero": [
+  "Pfutsero",
+  "Pfütsero",
+  "Phek district"
+ ],
+ "place:doyang-reservoir-wokha": [
+  "Doyang",
+  "Doyang reservoir",
+  "Wokha"
+ ],
+ "place:shilloi-lake": [
+  "Shilloi Nagaland",
+  "Shilloi lake Phek",
+  "Lake Shilloi Meluri",
+  "Latsam Nagaland"
+ ],
+ "place:dzuleke-village": [
+  "Dzuleke",
+  "Dzüleke village",
+  "Dzuleke Nagaland",
+  "Dzüleke stream"
+ ],
+ "activity:kaziranga-jeep-elephant-safari": [
+  "Kaziranga jeep safari",
+  "Kaziranga elephant safari",
+  "Kaziranga safari"
+ ],
+ "activity:brahmaputra-river-cruise": [
+  "Brahmaputra river cruise",
+  "Brahmaputra boat Guwahati",
+  "Brahmaputra sunset"
+ ],
+ "activity:assam-tea-garden-stay": [
+  "Assam tea plucking",
+  "tea pluckers Assam",
+  "tea estate Assam"
+ ],
+ "activity:majuli-satra-mask-making": [
+  "Samaguri satra mask",
+  "Majuli mask",
+  "Majuli mask making"
+ ],
+ "activity:bihu-dance-cultural-show": [
+  "Bihu dance",
+  "Bihu dancers",
+  "Rongali Bihu"
+ ],
+ "activity:assam-birdwatching": [
+  "Greater adjutant Assam",
+  "Bengal florican",
+  "birds Kaziranga"
+ ],
+ "activity:sualkuchi-silk-weaving": [
+  "Muga silk",
+  "Sualkuchi weaver",
+  "Assam silk weaving"
+ ],
+ "activity:jia-bhoreli-river-rafting": [
+  "Jia Bhoroli rafting",
+  "Nameri rafting",
+  "Jia Bharali"
+ ],
+ "activity:assamese-cuisine-experience": [
+  "Assamese thali",
+  "Assamese cuisine",
+  "Assamese food"
+ ],
+ "activity:river-dolphin-spotting": [
+  "Ganges river dolphin",
+  "Platanista gangetica",
+  "river dolphin Brahmaputra"
+ ],
+ "activity:tawang-monastery-visits": [
+  "Tawang monastery monks",
+  "Urgelling monastery",
+  "Gompa Tawang"
+ ],
+ "activity:high-altitude-drives": [
+  "Sela pass road",
+  "Tawang road",
+  "Arunachal mountain road"
+ ],
+ "activity:ziro-music-festival": [
+  "Ziro Festival of Music",
+  "Ziro festival"
+ ],
+ "activity:apatani-village-walk": [
+  "Apatani",
+  "Apatani woman",
+  "Hong village Ziro"
+ ],
+ "activity:arunachal-trekking": [
+  "Arunachal Pradesh trekking",
+  "Mechuka trek",
+  "Arunachal hills trail"
+ ],
+ "activity:arunachal-camping": [
+  "camping Arunachal Pradesh",
+  "tent Arunachal",
+  "Ziro camping"
+ ],
+ "activity:siang-river-rafting": [
+  "Siang river rafting",
+  "Siang river",
+  "Siang rafting"
+ ],
+ "activity:arunachal-angling": [
+  "Golden mahseer",
+  "Tor putitora",
+  "fishing Kameng river"
+ ],
+ "activity:eaglenest-birdwatching": [
+  "Eaglenest wildlife sanctuary",
+  "Bugun liocichla",
+  "Eaglenest"
+ ],
+ "activity:arunachal-winter-snow-trip": [
+  "Sela pass snow",
+  "Tawang snow",
+  "Mayodia snow"
+ ],
+ "activity:dirang-hot-springs": [
+  "Dirang hot spring",
+  "hot spring Arunachal",
+  "Dirang"
+ ],
+ "activity:arunachal-tribal-festivals": [
+  "Torgya",
+  "Losar Tawang",
+  "Solung",
+  "Myoko festival",
+  "Nyokum",
+  "Dree festival"
+ ],
+ "activity:living-root-bridge-trek": [
+  "living root bridge Meghalaya",
+  "living root bridge",
+  "root bridge Khasi"
+ ],
+ "activity:umngot-river-boating-kayaking": [
+  "Umngot river boat",
+  "Dawki boat",
+  "Umngot boating"
+ ],
+ "activity:meghalaya-caving": [
+  "Krem Mawmluh",
+  "Meghalaya cave",
+  "Arwah cave",
+  "Krem"
+ ],
+ "activity:shnongpdeng-cliff-jumping-camping": [
+  "Shnongpdeng",
+  "Umngot",
+  "Dawki camping",
+  "Umngot river"
+ ],
+ "activity:mawkdok-ziplining": [
+  "Mawkdok Dympep",
+  "Mawkdok valley",
+  "Sohra valley"
+ ],
+ "activity:khasi-village-homestay": [
+  "Khasi village",
+  "Khasi house",
+  "Meghalaya village"
+ ],
+ "activity:khasi-food-trail": [
+  "Jadoh",
+  "Khasi food",
+  "Meghalaya food"
+ ],
+ "activity:shillong-cherry-blossom-festival": [
+  "Cherry blossom Shillong",
+  "Prunus cerasoides Shillong",
+  "Prunus cerasoides"
+ ],
+ "activity:laitlum-sunrise": [
+  "Laitlum sunrise",
+  "Laitlum canyons",
+  "Laitlum"
+ ],
+ "activity:david-scott-trail-trek": [
+  "David Scott trail",
+  "David Scott trail Meghalaya",
+  "Mawphlang trek"
+ ],
+ "activity:hornbill-festival": [
+  "Hornbill festival",
+  "Hornbill Festival Nagaland",
+  "Hornbill festival dance"
+ ],
+ "activity:dzukou-valley-trek-camping": [
+  "Dzukou valley trek",
+  "Dzukou valley",
+  "Dzukou rest house"
+ ],
+ "activity:naga-tribal-village-visits": [
+  "Naga morung",
+  "Naga village",
+  "Angami village"
+ ],
+ "activity:konyak-heritage-tour": [
+  "Konyak tattoo",
+  "Konyak Naga",
+  "Konyak warrior"
+ ],
+ "activity:naga-cuisine-trail": [
+  "Naga food",
+  "Naga cuisine",
+  "Naga king chilli",
+  "smoked pork Nagaland"
+ ],
+ "activity:amur-falcon-watching": [
+  "Amur falcon",
+  "Falco amurensis",
+  "Amur falcon Nagaland"
+ ],
+ "activity:kohima-wwii-history-walk": [
+  "Kohima war cemetery",
+  "Battle of Kohima",
+  "Kohima memorial"
+ ],
+ "activity:naga-handloom-weaving": [
+  "Naga shawl",
+  "Naga weaving",
+  "Naga loin loom",
+  "Nagaland handloom"
+ ],
+ "activity:japfu-peak-trek": [
+  "Japfu",
+  "Japfü",
+  "Kohima mountains trek",
+  "Dzukou valley trek"
+ ],
+ "activity:naga-tribal-festivals": [
+  "Sekrenyi",
+  "Moatsu",
+  "Aoleang",
+  "Naga festival"
+ ],
+ "car:swift-dzire": [
+  "Maruti Suzuki Dzire",
+  "Maruti Swift Dzire",
+  "Suzuki Dzire"
+ ],
+ "car:hyundai-aura": [
+  "Hyundai Aura",
+  "Hyundai Aura sedan"
+ ],
+ "car:honda-amaze": [
+  "Honda Amaze",
+  "Honda Amaze second generation"
+ ],
+ "car:maruti-ertiga": [
+  "Maruti Suzuki Ertiga",
+  "Suzuki Ertiga"
+ ],
+ "car:innova-crysta": [
+  "Toyota Innova Crysta",
+  "Toyota Innova"
+ ],
+ "car:force-urbania": [
+  "Urbania",
+  "Force Urbania",
+  "Urbania van",
+  "Force Motors Urbania 2022",
+  "Urbania Force Motors"
+ ]
+}

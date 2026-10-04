@@ -1,0 +1,1841 @@
+{
+ "place:kaziranga-national-park": [
+  [
+   4,
+   "one-horned-rhino-grassland",
+   "Greater one-horned rhinoceros grazing in the grasslands of Kaziranga National Park, Assam"
+  ],
+  [
+   2,
+   "rhino-forest-trail",
+   "One-horned rhino walking along a forest trail in Kaziranga National Park"
+  ],
+  [
+   6,
+   "rhino-wallowing",
+   "Rhinoceros wallowing in a muddy pool in Kaziranga National Park"
+  ],
+  [
+   8,
+   "rhino-close-up",
+   "Close-up of a one-horned rhino feeding on grass in Kaziranga"
+  ]
+ ],
+ "place:majuli-island": [
+  [
+   0,
+   "brahmaputra-sunrise",
+   "Sunrise over still water and fishing nets on Majuli Island in the Brahmaputra"
+  ],
+  [
+   1,
+   "satra-gateway",
+   "Entrance gate of a Vaishnavite satra on Majuli Island, Assam"
+  ],
+  [
+   2,
+   "bhaona-masks",
+   "Traditional Bhaona masks displayed by an artisan at a satra in Majuli"
+  ],
+  [
+   9,
+   "satra-prayer-hall",
+   "Wooden prayer hall of a satra monastery on Majuli Island"
+  ]
+ ],
+ "place:kamakhya-temple": [
+  [
+   0,
+   "nilachal-hill-temple",
+   "Kamakhya Temple complex on Nilachal Hill, Guwahati"
+  ],
+  [
+   5,
+   "temple-courtyard-pilgrims",
+   "Pilgrims in the courtyard of Kamakhya Temple with its red domes"
+  ],
+  [
+   7,
+   "stone-carvings",
+   "Carved stone panels on the walls of Kamakhya Temple, Assam"
+  ]
+ ],
+ "place:umananda-island": [
+  [
+   1,
+   "island-brahmaputra",
+   "Umananda Island rising from the Brahmaputra river at Guwahati"
+  ],
+  [
+   4,
+   "peacock-island-ropeway",
+   "Umananda (Peacock) Island with the Guwahati ropeway cables overhead"
+  ],
+  [
+   8,
+   "umananda-temple",
+   "Umananda Temple among the trees on Peacock Island, Guwahati"
+  ]
+ ],
+ "place:manas-national-park": [
+  [
+   0,
+   "golden-langur",
+   "Golden langur in the forest of Manas National Park, Assam"
+  ],
+  [
+   2,
+   "manas-river",
+   "Manas River flowing through forested foothills in Manas National Park"
+  ],
+  [
+   8,
+   "elephant-herd",
+   "Herd of wild Asian elephants in the grasslands of Manas National Park"
+  ]
+ ],
+ "place:pobitora-wildlife-sanctuary": [
+  [
+   0,
+   "grassland-wetland",
+   "Wetland and grasslands of Pobitora Wildlife Sanctuary with grazing buffalo"
+  ],
+  [
+   8,
+   "rhino-mother-calf",
+   "Rhino mother and calf in Pobitora Wildlife Sanctuary near Guwahati"
+  ],
+  [
+   7,
+   "rhino-in-grass",
+   "One-horned rhino in tall grass at Pobitora Wildlife Sanctuary"
+  ]
+ ],
+ "place:sivasagar": [
+  [
+   2,
+   "rang-ghar-ahom-pavilion",
+   "Rang Ghar, the Ahom royal pavilion with its boat-shaped roof in Sivasagar"
+  ],
+  [
+   1,
+   "talatal-ghar-palace",
+   "Talatal Ghar, the multi-storey Ahom palace in Sivasagar, Assam"
+  ],
+  [
+   7,
+   "shivadol-temple",
+   "Shivadol temple beside Sivasagar tank, built in 1734"
+  ]
+ ],
+ "place:dibru-saikhowa-national-park": [
+  [
+   4,
+   "flooded-forest",
+   "Flooded forest and blue sky in Dibru-Saikhowa National Park, Assam"
+  ],
+  [
+   0,
+   "riverine-forest",
+   "Riverine forest in Dibru-Saikhowa National Park near Tinsukia"
+  ],
+  [
+   6,
+   "wild-water-buffalo",
+   "Wild water buffalo in the grasslands of Dibru-Saikhowa"
+  ]
+ ],
+ "place:haflong": [
+  [
+   1,
+   "haflong-lake",
+   "Haflong Lake in the hill town of Haflong, Dima Hasao"
+  ],
+  [
+   9,
+   "hill-town-view",
+   "View over Haflong town and the Barail hills at dusk"
+  ],
+  [
+   5,
+   "hill-railway-station",
+   "Train at New Haflong station on the scenic Lumding\u2013Silchar hill railway"
+  ]
+ ],
+ "place:hajo": [
+  [
+   0,
+   "hayagriva-madhava-temple",
+   "Hayagriva Madhava Temple on Monikut Hill in Hajo, Assam"
+  ],
+  [
+   8,
+   "temple-shikhara",
+   "Stone shikhara of a temple at Hajo near Guwahati"
+  ],
+  [
+   9,
+   "temple-dome",
+   "Temple dome at the Hayagriva Madhava complex, Hajo"
+  ]
+ ],
+ "place:sualkuchi": [
+  [
+   5,
+   "silk-handloom-weaving",
+   "Weaver working on a silk handloom in Sualkuchi, Assam"
+  ],
+  [
+   2,
+   "village-gateway",
+   "Decorated gateway to Sualkuchi silk village near Guwahati"
+  ],
+  [
+   0,
+   "brahmaputra-sunset",
+   "Sunset over the Brahmaputra at Sualkuchi"
+  ]
+ ],
+ "place:tezpur": [
+  [
+   0,
+   "agnigarh-hill",
+   "Entrance to Agnigarh hill in Tezpur, linked to the legend of Usha and Aniruddha"
+  ],
+  [
+   7,
+   "brahmaputra-sunset",
+   "Sunset over the Brahmaputra river at Tezpur"
+  ],
+  [
+   4,
+   "agnigarh-sculptures",
+   "Sculpted panels depicting the Usha\u2013Aniruddha legend at Agnigarh, Tezpur"
+  ]
+ ],
+ "place:jorhat-tea-estates": [
+  [
+   6,
+   "tea-plucker",
+   "Tea plucker with a basket among tea bushes in an Assam tea estate"
+  ],
+  [
+   3,
+   "shade-trees-tea-garden",
+   "Tea bushes under shade trees in a Jorhat tea garden"
+  ],
+  [
+   5,
+   "green-tea-fields",
+   "Bright green tea fields stretching to the horizon near Jorhat, Assam"
+  ],
+  [
+   9,
+   "tea-bushes-close",
+   "Neatly pruned tea bushes in an Upper Assam tea estate"
+  ]
+ ],
+ "place:nameri-national-park": [
+  [
+   1,
+   "jia-bhoreli-river",
+   "Jia Bhoreli river with the Himalayan foothills at Nameri National Park"
+  ],
+  [
+   5,
+   "white-winged-wood-duck",
+   "White-winged wood duck, Assam's state bird, in a forest pool"
+  ],
+  [
+   4,
+   "riverbank-forest",
+   "Forested banks of the Jia Bhoreli in Nameri National Park"
+  ]
+ ],
+ "place:dehing-patkai-national-park": [
+  [
+   8,
+   "rainforest-trees",
+   "Tall trees in the Dehing Patkai rainforest, Upper Assam"
+  ],
+  [
+   3,
+   "butterfly-forest-floor",
+   "Butterfly on the forest floor in Dehing Patkai National Park"
+  ],
+  [
+   7,
+   "forest-insect",
+   "Colourful insect on a leaf in the Dehing Patkai rainforest"
+  ]
+ ],
+ "place:tawang-monastery": [
+  [
+   4,
+   "monastery-ridge-mountains",
+   "Tawang Monastery spread across a ridge beneath mountains in Arunachal Pradesh"
+  ],
+  [
+   7,
+   "assembly-hall-interior",
+   "Interior of the main assembly hall of Tawang Monastery"
+  ],
+  [
+   2,
+   "monastery-courtyard",
+   "Courtyard and painted buildings of Tawang Monastery"
+  ],
+  [
+   8,
+   "golden-buddha",
+   "Giant gilded Buddha statue inside Tawang Monastery"
+  ]
+ ],
+ "place:sela-pass": [
+  [
+   0,
+   "frozen-sela-lake",
+   "Snow-covered Sela Pass and lake at 4,170 m on the road to Tawang"
+  ],
+  [
+   1,
+   "snowy-valley",
+   "Snowfields and peaks around Sela Pass, Arunachal Pradesh"
+  ],
+  [
+   4,
+   "snow-peaks",
+   "Snow-dusted mountains seen from Sela Pass"
+  ]
+ ],
+ "place:madhuri-lake": [
+  [
+   3,
+   "drowned-trees",
+   "Drowned tree trunks in Madhuri (Shungatser) Lake near Tawang"
+  ],
+  [
+   6,
+   "lake-cliffs",
+   "Madhuri Lake beneath rocky cliffs, Tawang district"
+  ],
+  [
+   1,
+   "prayer-flags",
+   "Prayer flags beside Shungatser Lake in Arunachal Pradesh"
+  ]
+ ],
+ "place:bum-la-pass": [
+  [
+   0,
+   "border-pass-sign",
+   "Bum La Pass on the India\u2013China border near Tawang"
+  ],
+  [
+   3,
+   "snow-lake-road",
+   "Snow and frozen lake on the road to Bum La Pass"
+  ],
+  [
+   9,
+   "high-altitude-lake",
+   "High-altitude lake below snowy peaks near Bum La"
+  ]
+ ],
+ "place:nuranang-falls": [
+  [
+   4,
+   "waterfall-valley",
+   "Nuranang (Jang) Falls cascading into a green valley near Tawang"
+  ],
+  [
+   0,
+   "waterfall-gorge",
+   "Nuranang waterfall plunging about 100 m near Jang, Arunachal Pradesh"
+  ],
+  [
+   5,
+   "waterfall-spray",
+   "Spray of Nuranang Falls in Tawang district"
+  ]
+ ],
+ "place:bomdila": [
+  [
+   5,
+   "bomdila-monastery",
+   "Gentse Gaden Rabgye Ling monastery in Bomdila, Arunachal Pradesh"
+  ],
+  [
+   0,
+   "hill-town-view",
+   "Hilltop view over Bomdila town in West Kameng"
+  ],
+  [
+   6,
+   "monastery-mural",
+   "Painted Buddhist mural inside a monastery in Bomdila"
+  ]
+ ],
+ "place:dirang": [
+  [
+   0,
+   "dirang-valley",
+   "Dirang valley with village houses and forested hills"
+  ],
+  [
+   2,
+   "dirang-chu-river",
+   "Boulder-strewn Dirang Chu river in Arunachal Pradesh"
+  ],
+  [
+   1,
+   "sangti-valley",
+   "Golden fields of Sangti Valley near Dirang"
+  ],
+  [
+   5,
+   "dirang-monastery",
+   "Colourful Buddhist monastery in Dirang"
+  ]
+ ],
+ "place:ziro-valley": [
+  [
+   1,
+   "apatani-rice-fields",
+   "Apatani rice-fish fields and pine hills in Ziro Valley"
+  ],
+  [
+   3,
+   "green-paddy",
+   "Bright green paddy fields of Ziro Valley, Arunachal Pradesh"
+  ],
+  [
+   4,
+   "valley-panorama",
+   "Panorama of the flat Ziro Valley plateau ringed by hills"
+  ],
+  [
+   0,
+   "apatani-elder",
+   "Apatani elder walking through the fields of Ziro"
+  ]
+ ],
+ "place:mechuka": [
+  [
+   0,
+   "mechuka-valley-siyom",
+   "Wide Mechuka valley and the winding Siyom river"
+  ],
+  [
+   1,
+   "hanging-bridge",
+   "Suspension bridge over the Siyom river at Mechuka"
+  ],
+  [
+   3,
+   "river-mountains",
+   "Siyom river and mountains in Mechuka, Shi Yomi district"
+  ]
+ ],
+ "place:namdapha-national-park": [
+  [
+   3,
+   "noa-dihing-river",
+   "Boat on the Noa-Dihing river with forested hills in Namdapha National Park"
+  ],
+  [
+   2,
+   "forest-hills",
+   "Dense forest of Namdapha National Park, Changlang"
+  ],
+  [
+   7,
+   "river-valley",
+   "River valley inside Namdapha National Park, Arunachal Pradesh"
+  ]
+ ],
+ "place:mayudia-roing": [
+  [
+   3,
+   "mayudia-snow",
+   "Snowfall on the slopes of Mayudia Pass, Arunachal Pradesh"
+  ],
+  [
+   0,
+   "mayudia-pass-sign",
+   "Welcome sign at Mayudia Pass, 2,655 m, above Roing"
+  ],
+  [
+   6,
+   "snowy-road",
+   "Snow-covered road at Mayudia Pass in winter"
+  ],
+  [
+   8,
+   "mishmi-hills",
+   "Mishmi Hills seen from the Roing\u2013Mayudia road"
+  ]
+ ],
+ "place:pasighat": [
+  [
+   0,
+   "siang-river",
+   "The wide Siang river at Pasighat, Arunachal Pradesh"
+  ],
+  [
+   8,
+   "siang-gorge-view",
+   "Siang river emerging from the hills near Pasighat"
+  ],
+  [
+   7,
+   "river-forest",
+   "Forest and river near Pasighat, East Siang"
+  ]
+ ],
+ "place:bhalukpong": [
+  [
+   4,
+   "kameng-river",
+   "Clear Kameng river at Bhalukpong on the Assam\u2013Arunachal border"
+  ],
+  [
+   0,
+   "kameng-riverbank",
+   "Riverbank of the Kameng at Bhalukpong"
+  ],
+  [
+   5,
+   "foothill-forest",
+   "Forested foothills around Bhalukpong, West Kameng"
+  ]
+ ],
+ "place:itanagar": [
+  [
+   8,
+   "ita-fort-ruins",
+   "Brick ruins of Ita Fort in Itanagar, Arunachal Pradesh"
+  ],
+  [
+   0,
+   "buddha-vihar",
+   "Buddha Vihar temple with prayer flags in Itanagar"
+  ],
+  [
+   3,
+   "city-street",
+   "Street scene in Itanagar, capital of Arunachal Pradesh"
+  ]
+ ],
+ "place:parshuram-kund": [
+  [
+   3,
+   "lohit-river",
+   "Turquoise Lohit river flowing past Parshuram Kund"
+  ],
+  [
+   1,
+   "lohit-rapids",
+   "Rapids of the Lohit river at Parshuram Kund"
+  ],
+  [
+   0,
+   "kund-shrine",
+   "Shrine at Parshuram Kund on the Lohit river"
+  ]
+ ],
+ "place:anini-dibang-valley": [
+  [
+   0,
+   "anini-plateau",
+   "Anini plateau and village in Dibang Valley, Arunachal Pradesh"
+  ],
+  [
+   5,
+   "dibang-gorge",
+   "Deep forested gorge and snow peaks in Dibang Valley"
+  ],
+  [
+   6,
+   "green-valley",
+   "Green hills of Dibang Valley district"
+  ],
+  [
+   4,
+   "snow-peak",
+   "Snow-capped peak seen from Anini"
+  ]
+ ],
+ "place:shillong": [
+  [
+   0,
+   "wards-lake",
+   "Ward's Lake surrounded by trees in central Shillong"
+  ],
+  [
+   8,
+   "wards-lake-garden",
+   "Ward's Lake garden and pond in Shillong, Meghalaya"
+  ],
+  [
+   4,
+   "lakeside-autumn",
+   "Lakeside park with autumn trees in Shillong"
+  ]
+ ],
+ "place:sohra-cherrapunji": [
+  [
+   1,
+   "clouds-gorge",
+   "Clouds rising from a deep gorge at Sohra (Cherrapunji)"
+  ],
+  [
+   0,
+   "misty-road",
+   "Misty mountain road through the hills of Sohra"
+  ],
+  [
+   4,
+   "sohra-plateau",
+   "Rolling plateau landscape around Cherrapunji, Meghalaya"
+  ],
+  [
+   5,
+   "waterfall",
+   "Waterfall near Sohra in the East Khasi Hills"
+  ]
+ ],
+ "place:nohkalikai-falls": [
+  [
+   4,
+   "plunge-waterfall",
+   "Nohkalikai Falls plunging about 340 m from the Sohra plateau"
+  ],
+  [
+   5,
+   "turquoise-pool",
+   "Turquoise pool at the base of Nohkalikai Falls, Meghalaya"
+  ],
+  [
+   1,
+   "gorge-view",
+   "Nohkalikai waterfall and gorge near Cherrapunji"
+  ]
+ ],
+ "place:seven-sisters-falls": [
+  [
+   0,
+   "monsoon-streams",
+   "Seven Sisters Falls (Nohsngithiang) streaming over limestone cliffs"
+  ],
+  [
+   1,
+   "clouds-valley",
+   "Seven Sisters Falls with clouds filling the valley below, Mawsmai"
+  ],
+  [
+   8,
+   "cliff-falls",
+   "Multiple streams of the Seven Sisters Falls near Sohra"
+  ]
+ ],
+ "place:double-decker-living-root-bridge": [
+  [
+   3,
+   "two-tier-root-bridge",
+   "Double decker living root bridge over a stream at Nongriat, Meghalaya"
+  ],
+  [
+   7,
+   "root-bridge-pool",
+   "Living root bridge above a natural pool and waterfall at Nongriat"
+  ],
+  [
+   1,
+   "root-bridge-close",
+   "Close view of the tangled roots of the Nongriat living root bridge"
+  ],
+  [
+   5,
+   "bridge-stream",
+   "Visitors at the stream below the double decker root bridge"
+  ]
+ ],
+ "place:mawlynnong": [
+  [
+   0,
+   "village-dusk",
+   "Houses and trees of Mawlynnong village at dusk"
+  ],
+  [
+   3,
+   "village-church",
+   "Church of the Epiphany in Mawlynnong, Meghalaya"
+  ],
+  [
+   8,
+   "riwai-root-bridge",
+   "Riwai living root bridge near Mawlynnong"
+  ],
+  [
+   4,
+   "clean-village-lane",
+   "Clean, tree-lined lane in Mawlynnong village"
+  ]
+ ],
+ "place:dawki-umngot-river": [
+  [
+   0,
+   "suspension-bridge-river",
+   "Umngot river and the Dawki suspension bridge, Meghalaya"
+  ],
+  [
+   8,
+   "crystal-clear-water",
+   "Crystal-clear water of the Umngot river showing the riverbed at Dawki"
+  ],
+  [
+   3,
+   "river-reflection",
+   "Green hills reflected in the still Umngot river at Dawki"
+  ],
+  [
+   2,
+   "boats-on-river",
+   "Boats on the calm Umngot river near Dawki"
+  ]
+ ],
+ "place:laitlum-canyons": [
+  [
+   2,
+   "canyon-panorama",
+   "Panoramic view of the Laitlum canyons near Shillong"
+  ],
+  [
+   9,
+   "clouds-viewpoint",
+   "Clouds drifting through the valleys below Laitlum viewpoint"
+  ],
+  [
+   6,
+   "steps-rasong",
+   "Stone steps descending from Laitlum toward Rasong village"
+  ]
+ ],
+ "place:mawsmai-cave": [
+  [
+   2,
+   "stalactites",
+   "Stalactites inside Mawsmai Cave near Sohra"
+  ],
+  [
+   3,
+   "limestone-formations",
+   "Limestone formations in Mawsmai Cave, Meghalaya"
+  ],
+  [
+   1,
+   "cave-entrance-sign",
+   "Entrance sign of Mawsmai Caves, East Khasi Hills"
+  ]
+ ],
+ "place:mawphlang-sacred-forest": [
+  [
+   5,
+   "forest-trail",
+   "Trail through the ancient Mawphlang Sacred Forest, Meghalaya"
+  ],
+  [
+   6,
+   "monoliths-grove",
+   "Monoliths at the edge of Mawphlang Sacred Grove"
+  ],
+  [
+   4,
+   "forest-stream",
+   "Moss-lined stream inside Mawphlang sacred forest"
+  ],
+  [
+   7,
+   "sacred-forest-sign",
+   "Mawphlang Sacred Forest entrance sign"
+  ]
+ ],
+ "place:elephant-falls": [
+  [
+   2,
+   "three-tier-waterfall",
+   "Elephant Falls cascading into a blue pool near Shillong"
+  ],
+  [
+   1,
+   "cascade",
+   "White cascades of Elephant Falls, Meghalaya"
+  ],
+  [
+   9,
+   "falls-forest",
+   "Elephant Falls in a fern-filled glen outside Shillong"
+  ]
+ ],
+ "place:krang-suri-falls": [
+  [
+   8,
+   "turquoise-pool",
+   "Krang Suri Falls pouring into a turquoise pool, West Jaintia Hills"
+  ],
+  [
+   1,
+   "waterfall-pool",
+   "Twin streams of Krang Suri waterfall over a rock ledge"
+  ],
+  [
+   7,
+   "river-pool",
+   "Clear blue pools below Krang Suri Falls"
+  ]
+ ],
+ "place:shnongpdeng": [
+  [
+   0,
+   "boat-clear-water",
+   "Boat floating on the crystal-clear Umngot river at Shnongpdeng"
+  ],
+  [
+   "@place:dawki-umngot-river#3"
+  ],
+  [
+   "@place:dawki-umngot-river#8"
+  ]
+ ],
+ "place:nartiang-monoliths": [
+  [
+   1,
+   "standing-stones",
+   "Cluster of standing monoliths at Nartiang, Jaintia Hills"
+  ],
+  [
+   0,
+   "monolith-garden",
+   "Menhirs and dolmens in the Nartiang monolith garden, Meghalaya"
+  ],
+  [
+   5,
+   "durga-temple",
+   "Old Durga temple at Nartiang, West Jaintia Hills"
+  ]
+ ],
+ "place:umiam-lake": [
+  [
+   8,
+   "lake-islands",
+   "Umiam Lake with wooded islands near Shillong"
+  ],
+  [
+   1,
+   "sailboats-sunset",
+   "Sailboats on Umiam Lake at sunset"
+  ],
+  [
+   2,
+   "still-blue-water",
+   "Still blue water of Umiam (Barapani) Lake, Meghalaya"
+  ]
+ ],
+ "place:kohima": [
+  [
+   0,
+   "hillside-town",
+   "Houses spread across the hills of Kohima, Nagaland"
+  ],
+  [
+   1,
+   "kohima-skyline",
+   "Kohima town under blue skies, capital of Nagaland"
+  ],
+  [
+   7,
+   "town-mountains",
+   "Kohima rooftops with mountains in the distance"
+  ]
+ ],
+ "place:kisama-heritage-village": [
+  [
+   6,
+   "heritage-village-gate",
+   "Gateway to the Naga Heritage Village at Kisama, venue of the Hornbill Festival"
+  ],
+  [
+   9,
+   "festival-arena",
+   "Hornbill Festival arena crowded with visitors at Kisama"
+  ],
+  [
+   2,
+   "village-entrance",
+   "Carved entrance to Kisama Heritage Village near Kohima"
+  ]
+ ],
+ "place:kohima-war-cemetery": [
+  [
+   0,
+   "kohima-epitaph",
+   "Kohima Epitaph memorial stone at the Kohima War Cemetery"
+  ],
+  [
+   2,
+   "memorial-plaques",
+   "Memorial plaques at Kohima War Cemetery, Nagaland"
+  ],
+  [
+   1,
+   "cross-memorial",
+   "Cross memorial at the Kohima War Cemetery"
+  ]
+ ],
+ "place:khonoma-village": [
+  [
+   7,
+   "village-view",
+   "Khonoma green village with traditional houses and mountains, Nagaland"
+  ],
+  [
+   3,
+   "morung-gate",
+   "Traditional Angami Naga gateway in Khonoma village"
+  ],
+  [
+   9,
+   "village-lane",
+   "Stone lane between houses in Khonoma"
+  ],
+  [
+   0,
+   "traditional-morung",
+   "Traditional morung house in Khonoma, Nagaland"
+  ]
+ ],
+ "place:dzukou-valley": [
+  [
+   7,
+   "rolling-green-hills",
+   "Rolling green hills of Dzukou Valley on the Nagaland\u2013Manipur border"
+  ],
+  [
+   0,
+   "dzukou-lily",
+   "Dzukou lily blooming in the meadows of Dzukou Valley"
+  ],
+  [
+   8,
+   "valley-meadows",
+   "Meadows and streams in Dzukou Valley, Nagaland"
+  ],
+  [
+   3,
+   "sunset-ridge",
+   "Sunset over the ridges around Dzukou Valley"
+  ]
+ ],
+ "place:japfu-peak": [
+  [
+   0,
+   "japfu-range",
+   "Mount Japfu range seen from Kohima, Nagaland"
+  ]
+ ],
+ "place:mokokchung": [
+  [
+   3,
+   "hill-town",
+   "Mokokchung town spread across a hillside in Nagaland"
+  ],
+  [
+   0,
+   "town-view",
+   "View over Mokokchung, cultural centre of the Ao Nagas"
+  ],
+  [
+   1,
+   "evening-hills",
+   "Evening light on the hills around Mokokchung"
+  ]
+ ],
+ "place:mon-konyak": [
+  [
+   4,
+   "konyak-warriors-dance",
+   "Konyak Naga men performing a traditional dance"
+  ],
+  [
+   5,
+   "konyak-women-dancers",
+   "Konyak women in traditional headgear and attire"
+  ],
+  [
+   2,
+   "mon-hills",
+   "Forested hills of Mon district, Nagaland"
+  ]
+ ],
+ "place:kachari-ruins-dimapur": [
+  [
+   4,
+   "mushroom-pillars",
+   "Mushroom-shaped sandstone pillars at the Kachari Rajbari ruins, Dimapur"
+  ],
+  [
+   2,
+   "ruined-gateway",
+   "Brick gateway of the Kachari ruins in Dimapur, Nagaland"
+  ],
+  [
+   1,
+   "carved-monoliths",
+   "Carved monoliths at the Kachari ruins, Dimapur"
+  ]
+ ],
+ "place:pfutsero": [
+  [
+   0,
+   "terraced-fields",
+   "Terraced rice fields near Pfutsero, Phek district"
+  ],
+  [
+   6,
+   "town-aerial",
+   "Aerial view of Pfutsero, Nagaland's highest town"
+  ],
+  [
+   5,
+   "glory-peak",
+   "Glory Peak viewpoint near Pfutsero at sunrise"
+  ]
+ ],
+ "place:doyang-reservoir-wokha": [
+  [
+   7,
+   "reservoir-island",
+   "Doyang reservoir with a forested island in Wokha district"
+  ],
+  [
+   4,
+   "dusk-boat",
+   "Boat on Doyang reservoir at dusk, Nagaland"
+  ],
+  [
+   6,
+   "blue-lake",
+   "Blue waters of the Doyang reservoir among hills"
+  ]
+ ],
+ "place:shilloi-lake": [
+  [
+   0,
+   "lake-reflection",
+   "Mountains reflected in Lake Shilloi, Nagaland's largest natural lake"
+  ]
+ ],
+ "place:longwa-village": [
+  [
+   0,
+   "konyak-elder",
+   "Tattooed Konyak elder in Longwa village, Mon district, Nagaland"
+  ],
+  [
+   5,
+   "mon-hills",
+   "Green hills around Longwa on the India\u2013Myanmar border"
+  ],
+  [
+   7,
+   "konyak-brass-ornaments",
+   "Traditional Konyak brass head ornaments"
+  ]
+ ],
+ "place:touphema-village": [
+  [
+   1,
+   "village-hillside",
+   "Touphema village on a hillside near Kohima, Nagaland"
+  ],
+  [
+   0,
+   "carved-morung",
+   "Carved traditional house at Touphema Tourist Village"
+  ],
+  [
+   6,
+   "traditional-hut",
+   "Traditional wooden house in an Angami village near Kohima"
+  ]
+ ],
+ "place:dzuleke-village": [
+  [
+   1,
+   "butterfly",
+   "Butterfly photographed at Dz\u00fcleke eco-village, Nagaland"
+  ],
+  [
+   6,
+   "swallowtail",
+   "Swallowtail butterfly at Dz\u00fcleke, Kohima district"
+  ],
+  [
+   0,
+   "forest-bird",
+   "Small bird perched in the forest at Dz\u00fcleke"
+  ]
+ ],
+ "activity:arunachal-tribal-festivals": [
+  [
+   8,
+   "women-traditional-attire",
+   "Women in traditional attire at a tribal festival in Arunachal Pradesh"
+  ],
+  [
+   9,
+   "festival-procession",
+   "Festival procession of women in traditional dress, Arunachal Pradesh"
+  ],
+  [
+   0,
+   "tawang-monastery-town",
+   "Tawang Monastery, venue of the Torgya festival"
+  ]
+ ],
+ "activity:naga-tribal-festivals": [
+  [
+   0,
+   "circle-dance",
+   "Naga dancers performing a circle dance at a festival"
+  ],
+  [
+   1,
+   "naga-warriors",
+   "Naga warriors in traditional headgear at a festival"
+  ],
+  [
+   3,
+   "festival-celebration",
+   "Colourful festival celebration in Nagaland"
+  ]
+ ],
+ "activity:shnongpdeng-cliff-jumping-camping": [
+  [
+   1,
+   "boats-river-beach",
+   "Boats lined up on the clear Umngot river at Shnongpdeng"
+  ],
+  [
+   3,
+   "suspension-bridge",
+   "Suspension bridge over the Umngot river at Shnongpdeng"
+  ],
+  [
+   7,
+   "umngot-gorge",
+   "Umngot river gorge near Shnongpdeng, Meghalaya"
+  ]
+ ],
+ "activity:kaziranga-jeep-elephant-safari": [
+  [
+   4,
+   "jeep-safari",
+   "Open jeeps on a safari track in Kaziranga National Park"
+  ],
+  [
+   5,
+   "elephant-safari-rhino",
+   "Elephant safari approaching a rhino in Kaziranga grassland"
+  ],
+  [
+   0,
+   "safari-track-dawn",
+   "Safari track through grassland at dawn in Kaziranga"
+  ],
+  [
+   9,
+   "elephant-safari-grassland",
+   "Visitors on an elephant safari in the tall grass of Kaziranga"
+  ]
+ ],
+ "activity:brahmaputra-river-cruise": [
+  [
+   0,
+   "river-cruise-ship",
+   "River cruise vessel on the Brahmaputra at Guwahati"
+  ],
+  [
+   1,
+   "sunset-country-boat",
+   "Country boat silhouetted on the Brahmaputra at sunset"
+  ],
+  [
+   5,
+   "misty-river",
+   "Boat on the misty Brahmaputra river, Assam"
+  ],
+  [
+   9,
+   "cruise-boats",
+   "Cruise boats moored on the Brahmaputra"
+  ]
+ ],
+ "activity:assam-tea-garden-stay": [
+  [
+   1,
+   "tea-pluckers",
+   "Tea pluckers at work in an Assam tea garden"
+  ],
+  [
+   8,
+   "heritage-bungalow",
+   "Heritage tea planter's bungalow in Assam"
+  ],
+  [
+   0,
+   "plucking-two-leaves",
+   "Tea plucker picking leaves into a basket, Assam"
+  ],
+  [
+   9,
+   "bungalow-veranda",
+   "Veranda of a heritage tea bungalow in Assam"
+  ]
+ ],
+ "activity:majuli-satra-mask-making": [
+  [
+   3,
+   "painted-masks",
+   "Painted Bhaona masks made at Samaguri Satra, Majuli"
+  ],
+  [
+   6,
+   "bamboo-masks",
+   "Bamboo-and-clay masks from Majuli's mask-making tradition"
+  ],
+  [
+   4,
+   "mask-workshop",
+   "Masks in progress at a mask-making workshop in Majuli"
+  ]
+ ],
+ "activity:bihu-dance-cultural-show": [
+  [
+   0,
+   "bihu-dancers-dhol",
+   "Bihu dancers with dhol drums in traditional Assamese attire"
+  ],
+  [
+   2,
+   "bihu-group",
+   "Group of Bihu dancers in muga and red costumes"
+  ],
+  [
+   6,
+   "stage-performance",
+   "Bihu dance performance on stage"
+  ],
+  [
+   7,
+   "pepa-horn",
+   "Bihu performer playing the pepa buffalo-horn pipe"
+  ]
+ ],
+ "activity:assam-birdwatching": [
+  [
+   3,
+   "greater-adjutants",
+   "Flock of greater adjutant storks in Assam"
+  ],
+  [
+   0,
+   "adjutants-wetland",
+   "Greater adjutants foraging at a wetland near Guwahati"
+  ],
+  [
+   1,
+   "adjutant-closeup",
+   "Greater adjutant stork, an endangered bird found in Assam"
+  ]
+ ],
+ "activity:sualkuchi-silk-weaving": [
+  [
+   1,
+   "silk-yarn-drying",
+   "Silk yarn drying outside a weaver's home in Sualkuchi"
+  ],
+  [
+   "@place:sualkuchi#0"
+  ],
+  [
+   0,
+   "silk-reeling",
+   "Women reeling silk thread in an Assam village"
+  ]
+ ],
+ "activity:jia-bhoreli-river-rafting": [
+  [
+   2,
+   "jia-bhoreli-water",
+   "Clear waters of the Jia Bhoreli river at Nameri"
+  ],
+  [
+   0,
+   "river-pebbles-forest",
+   "Pebble banks and forest on the Jia Bhoreli river"
+  ],
+  [
+   "@place:nameri-national-park#1"
+  ]
+ ],
+ "activity:assamese-cuisine-experience": [
+  [
+   1,
+   "assamese-thali",
+   "Traditional Assamese thali with rice, dal, fish curry and greens"
+  ],
+  [
+   0,
+   "thali-on-bamboo",
+   "Assamese meal served on a bamboo tray"
+  ],
+  [
+   6,
+   "rice-and-curries",
+   "Assamese rice meal with assorted curries"
+  ],
+  [
+   9,
+   "pitika",
+   "Assamese pitika mashed vegetable side dish"
+  ]
+ ],
+ "activity:river-dolphin-spotting": [
+  [
+   3,
+   "ganges-river-dolphin",
+   "Ganges river dolphin surfacing in a river"
+  ],
+  [
+   1,
+   "dolphin-surfacing",
+   "River dolphin breaking the surface of the water"
+  ],
+  [
+   5,
+   "dolphin-snout",
+   "Long-snouted river dolphin rising from the water"
+  ]
+ ],
+ "activity:tawang-monastery-visits": [
+  [
+   0,
+   "young-monks",
+   "Young Buddhist monks in maroon robes at a monastery in Arunachal Pradesh"
+  ],
+  [
+   9,
+   "buddha-altar",
+   "Buddha altar inside a monastery prayer hall"
+  ],
+  [
+   6,
+   "prayer-flags",
+   "Prayer flags fluttering near a monastery in Tawang district"
+  ]
+ ],
+ "activity:high-altitude-drives": [
+  [
+   3,
+   "cliff-road",
+   "Mountain road cut into a cliff on the route to Tawang"
+  ],
+  [
+   0,
+   "clouds-peaks",
+   "Clouds and snow peaks seen on a high-altitude drive in Arunachal Pradesh"
+  ],
+  [
+   5,
+   "snowfields",
+   "Snowfields beside the high road near Sela Pass"
+  ]
+ ],
+ "activity:ziro-music-festival": [
+  [
+   1,
+   "festival-meadow",
+   "Festival-goers in the meadows at the Ziro Festival of Music"
+  ],
+  [
+   3,
+   "night-stage",
+   "Night-time stage lights at the Ziro Festival of Music"
+  ],
+  [
+   4,
+   "festival-graffiti",
+   "Colourful Ziro Festival of Music mural"
+  ]
+ ],
+ "activity:apatani-village-walk": [
+  [
+   0,
+   "apatani-elders",
+   "Apatani elders with traditional nose plugs and tattoos in Ziro"
+  ],
+  [
+   2,
+   "rice-terraces",
+   "Apatani rice-fish fields seen on a village walk in Ziro"
+  ],
+  [
+   3,
+   "apatani-woman",
+   "Apatani woman with traditional facial tattoos, Ziro Valley"
+  ]
+ ],
+ "activity:arunachal-trekking": [
+  [
+   0,
+   "lake-and-peaks",
+   "High-altitude lake and snow peaks on a trek in Arunachal Pradesh"
+  ],
+  [
+   1,
+   "alpine-lake",
+   "Alpine lake framed by mountains in Arunachal Pradesh"
+  ],
+  [
+   3,
+   "trekker-forest-trail",
+   "Trekker on a forest trail in the Arunachal hills"
+  ]
+ ],
+ "activity:arunachal-camping": [
+  [
+   0,
+   "forest-treehouse",
+   "Wooden forest hut for campers in Arunachal Pradesh"
+  ],
+  [
+   "@place:mechuka#0"
+  ],
+  [
+   "@place:ziro-valley#4"
+  ]
+ ],
+ "activity:siang-river-rafting": [
+  [
+   7,
+   "siang-gorge",
+   "The Siang river flowing through a forested gorge in Arunachal Pradesh"
+  ],
+  [
+   5,
+   "siang-river",
+   "Wide Siang river with forested hills"
+  ],
+  [
+   6,
+   "rocky-riverbank",
+   "Rocky banks of the Siang river"
+  ]
+ ],
+ "activity:arunachal-angling": [
+  [
+   3,
+   "mahseer-catch",
+   "Angler holding a golden mahseer before release"
+  ],
+  [
+   7,
+   "mahseer-release",
+   "Mahseer caught on a catch-and-release fishing trip"
+  ],
+  [
+   5,
+   "river-angler",
+   "Angler fishing in a mountain river in Northeast India"
+  ]
+ ],
+ "activity:eaglenest-birdwatching": [
+  [
+   1,
+   "forest-bird",
+   "Forest bird perched on a branch in Eaglenest Wildlife Sanctuary"
+  ],
+  [
+   5,
+   "eaglenest-forest",
+   "Forested ridges of Eaglenest Wildlife Sanctuary, Arunachal Pradesh"
+  ],
+  [
+   9,
+   "bugun-liocichla",
+   "Illustration of the Bugun liocichla, discovered at Eaglenest in 2006"
+  ]
+ ],
+ "activity:arunachal-winter-snow-trip": [
+  [
+   2,
+   "sela-gate-snow",
+   "Snow-covered Sela Pass gateway with prayer flags in winter"
+  ],
+  [
+   5,
+   "frozen-lake",
+   "Frozen high-altitude lake surrounded by snow in Tawang district"
+  ],
+  [
+   7,
+   "snow-peaks-flags",
+   "Snow peaks and prayer flags on a winter trip to Arunachal Pradesh"
+  ]
+ ],
+ "activity:dirang-hot-springs": [
+  [
+   0,
+   "dirang-gorge",
+   "Dirang Chu river gorge near the Dirang hot springs"
+  ],
+  [
+   3,
+   "dirang-river",
+   "Boulder-lined Dirang river in West Kameng"
+  ],
+  [
+   1,
+   "dirang-valley-town",
+   "Dirang valley town surrounded by hills"
+  ]
+ ],
+ "activity:living-root-bridge-trek": [
+  [
+   0,
+   "root-bridge-stream",
+   "Living root bridge spanning a forest stream in Meghalaya"
+  ],
+  [
+   9,
+   "root-bridge-pool",
+   "Living root bridge above a clear pool in the Khasi Hills"
+  ],
+  [
+   4,
+   "root-bridge-trail",
+   "Trekkers crossing a living root bridge in Meghalaya"
+  ]
+ ],
+ "activity:umngot-river-boating-kayaking": [
+  [
+   6,
+   "boat-green-water",
+   "Boat floating on the emerald Umngot river"
+  ],
+  [
+   1,
+   "rowing-boat",
+   "Boatman rowing on the Umngot river near Dawki"
+  ],
+  [
+   3,
+   "boat-gorge",
+   "Boat heading into the Umngot gorge"
+  ]
+ ],
+ "activity:meghalaya-caving": [
+  [
+   0,
+   "cave-waterfall",
+   "Underground waterfall inside a Meghalaya limestone cave"
+  ],
+  [
+   9,
+   "cave-passage",
+   "Explorer in a large cave passage in Meghalaya"
+  ],
+  [
+   8,
+   "cave-skylight",
+   "Light pouring through a cave opening in Meghalaya"
+  ]
+ ],
+ "activity:mawkdok-ziplining": [
+  [
+   0,
+   "mawkdok-valley",
+   "Deep green Mawkdok Dympep valley on the Shillong\u2013Sohra road"
+  ],
+  [
+   3,
+   "sohra-valley-clouds",
+   "Clouds over the Mawkdok valley, site of Meghalaya's zipline"
+  ],
+  [
+   5,
+   "valley-ridges",
+   "Forested ridges of the Mawkdok Dympep valley"
+  ]
+ ],
+ "activity:khasi-village-homestay": [
+  [
+   2,
+   "village-street",
+   "Street of wooden houses in a Khasi village, Meghalaya"
+  ],
+  [
+   8,
+   "stilt-houses",
+   "Traditional stilted houses in a Meghalaya village"
+  ],
+  [
+   6,
+   "village-landscape",
+   "Village and fields in the Khasi Hills"
+  ]
+ ],
+ "activity:khasi-food-trail": [
+  [
+   0,
+   "jadoh",
+   "Jadoh, Khasi rice cooked with pork and spices"
+  ],
+  [
+   1,
+   "leaf-wrapped-meal",
+   "Khasi meal served on banana leaf"
+  ],
+  [
+   7,
+   "pork-stew",
+   "Traditional pork dish from Meghalaya"
+  ]
+ ],
+ "activity:shillong-cherry-blossom-festival": [
+  [
+   0,
+   "cherry-trees-bloom",
+   "Himalayan cherry trees in bloom in Shillong in November"
+  ],
+  [
+   8,
+   "pink-blossoms",
+   "Pink Himalayan cherry blossoms against a blue sky"
+  ],
+  [
+   1,
+   "festival-concert",
+   "Night concert with fireworks at the Shillong Cherry Blossom Festival"
+  ]
+ ],
+ "activity:laitlum-sunrise": [
+  [
+   1,
+   "morning-canyons",
+   "Morning light over the Laitlum canyons, Meghalaya"
+  ],
+  [
+   4,
+   "layered-ridges",
+   "Layered ridges seen from Laitlum at sunrise"
+  ],
+  [
+   7,
+   "grassy-rim",
+   "Grassy rim of the Laitlum viewpoint above the gorges"
+  ]
+ ],
+ "activity:david-scott-trail-trek": [
+  [
+   "@place:mawphlang-sacred-forest#5"
+  ],
+  [
+   "@place:laitlum-canyons#2"
+  ],
+  [
+   "@place:mawphlang-sacred-forest#6"
+  ]
+ ],
+ "activity:hornbill-festival": [
+  [
+   0,
+   "warrior-dancers",
+   "Naga warriors leaping in a dance at the Hornbill Festival"
+  ],
+  [
+   2,
+   "morung-dance",
+   "Tribal dance in front of a morung at the Hornbill Festival, Kisama"
+  ],
+  [
+   7,
+   "festival-arena",
+   "Crowds at the Hornbill Festival arena, Kisama Heritage Village"
+  ],
+  [
+   9,
+   "tribal-procession",
+   "Naga tribes in traditional dress at the Hornbill Festival"
+  ]
+ ],
+ "activity:dzukou-valley-trek-camping": [
+  [
+   6,
+   "trail-hills",
+   "Grassy hills along the Dzukou Valley trek"
+  ],
+  [
+   5,
+   "sunset-camp",
+   "Sunset over the ridges from the Dzukou rest house"
+  ],
+  [
+   1,
+   "green-valley",
+   "Green rolling valley of Dzukou, Nagaland"
+  ]
+ ],
+ "activity:naga-tribal-village-visits": [
+  [
+   2,
+   "carved-morung",
+   "Carved Naga morung house with hornbill motifs"
+  ],
+  [
+   5,
+   "hill-village",
+   "Naga hill village seen from above"
+  ],
+  [
+   1,
+   "morung-night",
+   "Naga morung lit at night with buffalo-horn decorations"
+  ]
+ ],
+ "activity:konyak-heritage-tour": [
+  [
+   0,
+   "konyak-elder",
+   "Konyak elder in traditional attire, Mon district"
+  ],
+  [
+   1,
+   "konyak-warrior",
+   "Konyak man in warrior dress holding a dao"
+  ],
+  [
+   2,
+   "konyak-dance",
+   "Konyak Naga men performing a traditional dance"
+  ]
+ ],
+ "activity:naga-cuisine-trail": [
+  [
+   1,
+   "naga-meal",
+   "Naga meal of smoked meat, greens and chutneys"
+  ],
+  [
+   2,
+   "naga-spread",
+   "Spread of Naga dishes with bamboo shoot and greens"
+  ],
+  [
+   3,
+   "kohima-street-food",
+   "Street food stalls in Kohima, Nagaland"
+  ]
+ ],
+ "activity:amur-falcon-watching": [
+  [
+   0,
+   "amur-falcon-perched",
+   "Amur falcon perched on a wire"
+  ],
+  [
+   2,
+   "amur-falcon-flight",
+   "Amur falcon in flight"
+  ],
+  [
+   7,
+   "falcon-flock-wires",
+   "Flock of Amur falcons resting on power lines during migration"
+  ]
+ ],
+ "activity:kohima-wwii-history-walk": [
+  [
+   2,
+   "war-cemetery-terraces",
+   "Terraced graves of the Kohima War Cemetery overlooking the town"
+  ],
+  [
+   0,
+   "kohima-1944",
+   "Battlefield at Kohima in 1944 during World War II"
+  ],
+  [
+   7,
+   "memorial-wreaths",
+   "Poppy wreaths at a memorial in the Kohima War Cemetery"
+  ]
+ ],
+ "activity:naga-handloom-weaving": [
+  [
+   0,
+   "loin-loom-weaver",
+   "Naga woman weaving on a traditional back-strap loin loom"
+  ],
+  [
+   2,
+   "tiger-motif-shawl",
+   "Naga shawl woven with tiger and animal motifs"
+  ],
+  [
+   1,
+   "red-naga-shawl",
+   "Red and black striped Naga shawl"
+  ]
+ ],
+ "activity:japfu-peak-trek": [
+  [
+   "@place:japfu-peak#0"
+  ],
+  [
+   1,
+   "green-ridges",
+   "Green ridges on the trek toward Japfu and Dzukou, Kohima district"
+  ]
+ ],
+ "car:swift-dzire": [
+  [
+   3,
+   "white-sedan",
+   "Maruti Suzuki Dzire sedan, used for Nomadic Travel airport transfers and city tours"
+  ]
+ ],
+ "car:hyundai-aura": [
+  [
+   0,
+   "compact-sedan",
+   "Hyundai Aura compact sedan for Northeast India tours"
+  ]
+ ],
+ "car:honda-amaze": [
+  [
+   1,
+   "white-sedan",
+   "Honda Amaze sedan for comfortable tours in Assam and Meghalaya"
+  ]
+ ],
+ "car:maruti-ertiga": [
+  [
+   8,
+   "seven-seater-muv",
+   "Maruti Suzuki Ertiga 7-seater MUV for family tours"
+  ]
+ ]
+}
