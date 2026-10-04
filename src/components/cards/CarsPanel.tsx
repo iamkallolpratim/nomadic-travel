@@ -1,8 +1,8 @@
 import { BusFront, Luggage, Snowflake, Users } from "lucide-react";
-import { Img } from "@/components/ui/Img";
+import { Gallery } from "@/components/ui/Gallery";
 import { WhatsAppButton } from "@/components/lead/WhatsAppButton";
 import { cars } from "@/data/cars";
-import { heroFor } from "@/lib/content";
+import { imagesFor } from "@/lib/content";
 
 /** "Available cars" section: one card per vehicle with seats, luggage and a WhatsApp booking button. */
 export function CarsPanel({ title = "Available cars", context }: { title?: string; context?: string }) {
@@ -12,19 +12,19 @@ export function CarsPanel({ title = "Available cars", context }: { title?: strin
       <p className="-mt-1 mb-4 text-sm text-slate-600">Every tour includes a private, air-conditioned vehicle with an experienced local driver. Choose the size that fits your group.</p>
       <ul className="grid grid-cols-2 gap-3">
         {cars.map((c) => {
-          const photo = heroFor(`car:${c.slug}`);
+          const photos = imagesFor(`car:${c.slug}`);
           return (
             <li key={c.slug} className="flex flex-col overflow-hidden rounded-2xl bg-slate-50 ring-1 ring-black/5">
               <div className="relative aspect-[4/3] bg-gradient-to-br from-forest-50 to-mist-100">
-                {photo ? (
-                  <Img file={photo} sizes="(min-width:640px) 230px, 45vw" className="object-cover" />
+                {photos.length ? (
+                  <Gallery files={photos} sizes="(min-width:640px) 230px, 45vw" credits={false} className="aspect-[4/3] !rounded-none" />
                 ) : (
                   <div className="flex h-full flex-col items-center justify-center gap-1 text-forest-700" role="img" aria-label={`${c.name} (photo coming soon)`}>
                     <BusFront className="h-10 w-10" aria-hidden />
                     <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-600">Photo coming soon</span>
                   </div>
                 )}
-                <span className="absolute left-2 top-2 rounded-full bg-white/95 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-forest-800 shadow-sm">{c.type}</span>
+                <span className="pointer-events-none absolute left-2 top-2 z-10 rounded-full bg-white/95 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-forest-800 shadow-sm">{c.type}</span>
               </div>
               <div className="flex flex-1 flex-col p-3">
                 <h3 className="font-sans text-sm font-semibold leading-snug text-forest-900">{c.name}</h3>

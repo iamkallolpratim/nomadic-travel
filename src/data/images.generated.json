@@ -3780,18 +3780,6 @@
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
    "title": "Breathtaking beauty of Dzukou Valley in Manipur-Nagaland border (edit).jpg"
   },
-  "innova-crysta-nomadic-travel-white-tourist-permit.webp": {
-   "file": "innova-crysta-nomadic-travel-white-tourist-permit.webp",
-   "width": 1400,
-   "height": 1050,
-   "alt": "Nomadic Travel's white Toyota Innova Crysta with roof carrier and All India Tourist Permit",
-   "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAwAA4BaJQBdgB7H8JAnMWVAAP7zJYNAPbGEt5cEs/jxOkeK0t9dMyAcSUgLu/ub4gM5URl12KdPeM1HiKI1ZS8r+4TbNjsCS+9IzOXHpegA",
-   "author": "Nomadic Travel",
-   "license": "\u00a9 Nomadic Travel, all rights reserved",
-   "licenseUrl": "",
-   "sourceUrl": "",
-   "title": "innova-crysta-nomadic-travel-white-tourist-permit.webp"
-  },
   "maruti-ertiga-nomadic-travel-white.webp": {
    "file": "maruti-ertiga-nomadic-travel-white.webp",
    "width": 1400,
@@ -3851,6 +3839,18 @@
    "licenseUrl": "",
    "sourceUrl": "",
    "title": "swift-dzire-nomadic-travel-white.webp"
+  },
+  "innova-crysta-nomadic-travel-white.webp": {
+   "file": "innova-crysta-nomadic-travel-white.webp",
+   "width": 1400,
+   "height": 1050,
+   "alt": "Toyota Innova Crysta MUV in white",
+   "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoQAAwAA4BaJZgC7AYqhWlEsoolwAD+72JIPrp4/i+hQep6dc02yFQI9bI23nDNc0Wx9bxA6GnPJP4eCZ4lTqs3aBube48kktqbDLdBxI6UtfPo98SYc2D3Q7jt+CY9JFyq56ryoQAAAA==",
+   "author": "Nomadic Travel",
+   "license": "\u00a9 Nomadic Travel, all rights reserved",
+   "licenseUrl": "",
+   "sourceUrl": "",
+   "title": "innova-crysta-nomadic-travel-white.webp"
   }
  },
  "entities": {
@@ -4398,7 +4398,7 @@
    "maruti-ertiga-nomadic-travel-white.webp"
   ],
   "car:innova-crysta": [
-   "innova-crysta-nomadic-travel-white-tourist-permit.webp"
+   "innova-crysta-nomadic-travel-white.webp"
   ],
   "car:force-urbania": [
    "force-urbania-nomadic-travel-white.webp"
