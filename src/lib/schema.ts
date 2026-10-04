@@ -30,6 +30,7 @@ export function organizationSchema(): Json {
       addressCountry: site.address.country,
     },
     geo: { "@type": "GeoCoordinates", latitude: site.geo.lat, longitude: site.geo.lng },
+    hasMap: site.googleMapsUrl,
     areaServed: states.map((s) => ({ "@type": "State", name: s.name, containedInPlace: { "@type": "Country", name: "India" } })),
     sameAs: site.sameAs,
     contactPoint: [

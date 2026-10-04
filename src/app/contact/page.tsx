@@ -37,7 +37,7 @@ export default function ContactPage() {
             <p className="flex gap-3"><Mail className="h-4 w-4 flex-none text-forest-700" aria-hidden /><a href={`mailto:${site.email}`} className="link">{site.email}</a></p>
             <p className="flex gap-3"><Clock className="h-4 w-4 flex-none text-forest-700" aria-hidden />Every day, 9:00 am – 8:00 pm IST</p>
           </address>
-          <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${site.name}, ${a.street}, ${a.locality}`)}`} target="_blank" rel="noopener noreferrer" className="link mt-3 inline-block text-sm">Open in Google Maps ↗</a>
+          <a href={site.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="link mt-3 inline-block text-sm">Open in Google Maps ↗</a>
         </Panel>
       </Page>
     </>
