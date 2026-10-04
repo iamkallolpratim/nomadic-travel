@@ -34,8 +34,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 14500,
-    budget: "standard",
     bestSeason: "November – April",
     summary: "Our most popular Kaziranga tour package: three safaris in different ranges, a tea garden walk, Kamakhya Temple and a Brahmaputra sunset.",
     overview: [
@@ -75,8 +73,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dibrugarh or Jorhat",
     start: "guwahati",
     end: "dibrugarh",
-    priceFrom: 26500,
-    budget: "standard",
     bestSeason: "October – April",
     summary: "The complete Kaziranga and Majuli tour: rhinos, a heritage tea bungalow, Majuli's monasteries and the Ahom capital of Sivasagar.",
     overview: [
@@ -117,8 +113,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dibrugarh",
     start: "dibrugarh",
     end: "dibrugarh",
-    priceFrom: 22000,
-    budget: "standard",
     bestSeason: "November – March",
     summary: "Boat safaris among feral horses and river dolphins, then hoolock gibbons in the 'Amazon of the East'.",
     overview: [
@@ -158,8 +152,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 16500,
-    budget: "standard",
     bestSeason: "November – April",
     summary: "Golden langurs and elephants in UNESCO-listed Manas, silk weaving at Sualkuchi and rhinos at Pobitora.",
     overview: [
@@ -197,8 +189,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 28500,
-    budget: "standard",
     bestSeason: "March – June, September – November",
     summary: "The classic Arunachal journey over Sela Pass to India's largest monastery, with Madhuri Lake and Bum La.",
     overview: [
@@ -241,8 +231,6 @@ export const rawTours: RawTour[] = [
     endCity: "Itanagar or North Lakhimpur",
     start: "itanagar",
     end: "itanagar",
-    priceFrom: 19500,
-    budget: "standard",
     bestSeason: "March – November",
     summary: "Slow days in the Apatani homeland: village walks, rice-fish fields and pine-scented hikes.",
     overview: [
@@ -281,8 +269,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dibrugarh",
     start: "dibrugarh",
     end: "dibrugarh",
-    priceFrom: 31000,
-    budget: "standard",
     bestSeason: "October – May",
     summary: "A road adventure to a remote Himalayan valley near the McMahon Line, through Adi country on the Siang.",
     overview: [
@@ -323,8 +309,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dibrugarh",
     start: "dibrugarh",
     end: "dibrugarh",
-    priceFrom: 33000,
-    budget: "premium",
     bestSeason: "October – April",
     summary: "India's least populated district: snowy Mayudia, wild river gorges and Idu Mishmi villages.",
     overview: [
@@ -366,8 +350,6 @@ export const rawTours: RawTour[] = [
     endCity: "Itanagar (Hollongi)",
     start: "guwahati",
     end: "itanagar",
-    priceFrom: 49000,
-    budget: "premium",
     bestSeason: "March – May, October – November",
     summary: "Western Arunachal's monasteries and passes, Nameri's river forests, then the Apatani valley of Ziro.",
     overview: [
@@ -413,8 +395,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 17500,
-    budget: "standard",
     bestSeason: "October – May",
     summary: "The best of Meghalaya in five days: waterfalls, the double-decker root bridge, Mawlynnong and Dawki's clear river.",
     overview: [
@@ -455,8 +435,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 13500,
-    budget: "budget",
     bestSeason: "Year-round (October – May for views)",
     summary: "A short, easy Meghalaya break: Shillong's lakes and viewpoints, then Cherrapunji's waterfalls and caves.",
     overview: [
@@ -495,8 +473,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 14500,
-    budget: "budget",
     bestSeason: "November – April",
     summary: "Sleep beside the double-decker root bridge, then camp on the Umngot's crystal-clear water.",
     overview: [
@@ -535,8 +511,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dimapur",
     start: "dimapur",
     end: "dimapur",
-    priceFrom: 24500,
-    budget: "standard",
     bestSeason: "October – May",
     summary: "Naga villages, WWII history and a night in the meadows of Dzukou Valley.",
     overview: [
@@ -578,8 +552,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dimapur",
     start: "dimapur",
     end: "dimapur",
-    priceFrom: 27500,
-    budget: "standard",
     bestSeason: "1–10 December",
     summary: "Three festival days at Kisama with a local guide, Kohima's night carnival and a village escape to Khonoma.",
     overview: [
@@ -619,8 +591,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dimapur",
     start: "dimapur",
     end: "dimapur",
-    priceFrom: 12500,
-    budget: "budget",
     bestSeason: "October – November, March – May",
     summary: "Nagaland's favourite trek: up via Viswema, a night among the bamboo hills, down via Zakhama.",
     overview: [
@@ -658,8 +628,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dimapur",
     start: "jorhat",
     end: "dimapur",
-    priceFrom: 32000,
-    budget: "premium",
     bestSeason: "October – April",
     summary: "Meet tattooed Konyak elders, sleep in Longwa on the Myanmar border and cross Nagaland to Kohima.",
     overview: [
@@ -700,8 +668,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 27000,
-    budget: "standard",
     bestSeason: "November – April",
     summary: "Our bestselling Northeast combo: Meghalaya's waterfalls and clear rivers plus Kaziranga's rhinos.",
     overview: [
@@ -743,8 +709,6 @@ export const rawTours: RawTour[] = [
     endCity: "Guwahati",
     start: "guwahati",
     end: "guwahati",
-    priceFrom: 47500,
-    budget: "premium",
     bestSeason: "October – April (Tawang best Oct–Nov, Mar–Apr)",
     summary: "Three states in one journey: the waterfalls of Meghalaya, the rhinos of Kaziranga and the monasteries of Tawang.",
     overview: [
@@ -790,8 +754,6 @@ export const rawTours: RawTour[] = [
     endCity: "Dimapur",
     start: "guwahati",
     end: "dimapur",
-    priceFrom: 25500,
-    budget: "standard",
     bestSeason: "November – April",
     summary: "Rhino safaris in Kaziranga followed by the Naga hills — Kohima, Khonoma and Kisama.",
     overview: [

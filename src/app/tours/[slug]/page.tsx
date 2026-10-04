@@ -14,7 +14,6 @@ import { CarsPanel } from "@/components/cards/CarsPanel";
 import { activityUrl, durationLabel, getActivity, getPlace, getState, placeUrl, resolve, tours, tourUrl } from "@/lib/content";
 import { buildMetadata, shortName } from "@/lib/seo";
 import { tourSchema } from "@/lib/schema";
-import { formatINR, site } from "@/data/site";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => tours.map((t) => ({ slug: t.slug }));
@@ -75,10 +74,9 @@ export default async function TourPage({ params }: Props) {
             <div className="mt-3 rounded-2xl bg-forest-50/70 p-3.5">
               <div className="flex items-baseline justify-between gap-3">
                 <p className="text-sm font-semibold text-forest-900">{durationLabel(tour)} · private tour</p>
-                {site.showPrices && <p className="whitespace-nowrap text-base font-bold text-forest-900">{formatINR(tour.priceFrom)}<span className="text-xs font-normal text-slate-600"> pp</span></p>}
+                <p className="whitespace-nowrap text-sm font-semibold text-forest-800">Price on request</p>
               </div>
               <p className="mt-1 text-xs text-slate-600">{tour.highlights.join(", ")}</p>
-              {site.showPrices && <p className="mt-1 text-[11px] text-slate-600">Indicative starting price per person, twin sharing.</p>}
             </div>
 
             <div className="mt-4 grid grid-cols-2 gap-2">

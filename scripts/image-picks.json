@@ -1809,33 +1809,5 @@
    "green-ridges",
    "Green ridges on the trek toward Japfu and Dzukou, Kohima district"
   ]
- ],
- "car:swift-dzire": [
-  [
-   3,
-   "white-sedan",
-   "Maruti Suzuki Dzire sedan, used for Nomadic Travel airport transfers and city tours"
-  ]
- ],
- "car:hyundai-aura": [
-  [
-   0,
-   "compact-sedan",
-   "Hyundai Aura compact sedan for Northeast India tours"
-  ]
- ],
- "car:honda-amaze": [
-  [
-   1,
-   "white-sedan",
-   "Honda Amaze sedan for comfortable tours in Assam and Meghalaya"
-  ]
- ],
- "car:maruti-ertiga": [
-  [
-   8,
-   "seven-seater-muv",
-   "Maruti Suzuki Ertiga 7-seater MUV for family tours"
-  ]
  ]
 }

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { Filter, RotateCcw } from "lucide-react";
 
-export type TourFacet = { slug: string; states: string[]; days: number; price: number; activities: string[] };
+export type TourFacet = { slug: string; states: string[]; days: number; activities: string[] };
 type Option = { value: string; label: string; icon?: ReactNode };
 
 const DURATIONS: Option[] = [
@@ -11,14 +11,8 @@ const DURATIONS: Option[] = [
   { value: "mid", label: "5–7 days" },
   { value: "long", label: "8+ days" },
 ];
-const BUDGETS: Option[] = [
-  { value: "b1", label: "Under ₹15,000" },
-  { value: "b2", label: "₹15,000–30,000" },
-  { value: "b3", label: "Above ₹30,000" },
-];
 
 const inDuration = (d: number, v: string) => (v === "short" ? d <= 4 : v === "mid" ? d >= 5 && d <= 7 : d >= 8);
-const inBudget = (p: number, v: string) => (v === "b1" ? p < 15000 : v === "b2" ? p >= 15000 && p <= 30000 : p > 30000);
 
 function Chips({ options, value, onChange, label }: { options: Option[]; value: string; onChange: (v: string) => void; label: string }) {
 return (
@@ -44,7 +38,6 @@ return (
 export function ToursExplorer({ facets, cards, stateOptions, activityOptions }: { facets: TourFacet[]; cards: Record<string, ReactNode>; stateOptions: Option[]; activityOptions: Option[] }) {
   const [state, setState] = useState("");
   const [duration, setDuration] = useState("");
-  const [budget, setBudget] = useState("");
   const [activity, setActivity] = useState("");
 
   // Deep links such as /tours?state=meghalaya&activity=hornbill-festival. Read after hydration so the
@@ -54,7 +47,6 @@ export function ToursExplorer({ facets, cards, stateOptions, activityOptions }: 
     /* eslint-disable react-hooks/set-state-in-effect */
     setState(q.get("state") ?? "");
     setDuration(q.get("duration") ?? "");
-    setBudget(q.get("budget") ?? "");
     setActivity(q.get("activity") ?? "");
     /* eslint-enable react-hooks/set-state-in-effect */
   }, []);
@@ -63,11 +55,10 @@ export function ToursExplorer({ facets, cards, stateOptions, activityOptions }: 
     const q = new URLSearchParams();
     if (state) q.set("state", state);
     if (duration) q.set("duration", duration);
-    if (budget) q.set("budget", budget);
     if (activity) q.set("activity", activity);
     const qs = q.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [state, duration, budget, activity]);
+  }, [state, duration, activity]);
 
   const visible = useMemo(
     () =>
@@ -75,13 +66,12 @@ export function ToursExplorer({ facets, cards, stateOptions, activityOptions }: 
         (t) =>
           (!state || t.states.includes(state)) &&
           (!duration || inDuration(t.days, duration)) &&
-          (!budget || inBudget(t.price, budget)) &&
           (!activity || t.activities.includes(activity)),
       ),
-    [facets, state, duration, budget, activity],
+    [facets, state, duration, activity],
   );
-  const reset = () => { setState(""); setDuration(""); setBudget(""); setActivity(""); };
-  const active = state || duration || budget || activity;
+  const reset = () => { setState(""); setDuration(""); setActivity(""); };
+  const active = state || duration || activity;
 
 
   return (
@@ -89,10 +79,7 @@ export function ToursExplorer({ facets, cards, stateOptions, activityOptions }: 
       <div className="panel mb-4 space-y-4">
         <p className="panel-title mb-0 flex items-center gap-2"><Filter className="h-3.5 w-3.5" aria-hidden /> Filter tours</p>
         <Chips label="State" options={stateOptions} value={state} onChange={setState} />
-        <div className="grid gap-4">
-          <Chips label="Duration" options={DURATIONS} value={duration} onChange={setDuration} />
-          <Chips label="Budget (per person)" options={BUDGETS} value={budget} onChange={setBudget} />
-        </div>
+        <Chips label="Duration" options={DURATIONS} value={duration} onChange={setDuration} />
         <details className="group">
           <summary className="cursor-pointer list-none text-xs font-bold uppercase tracking-wider text-slate-600 [&::-webkit-details-marker]:hidden">Activity <span className="text-forest-700 group-open:hidden">+ show</span></summary>
           <div className="mt-2"><Chips label="Activity" options={activityOptions} value={activity} onChange={setActivity} /></div>

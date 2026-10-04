@@ -19,7 +19,6 @@ export function organizationSchema(): Json {
     description: site.description,
     email: site.email,
     telephone: site.phoneE164,
-    priceRange: "₹₹",
     foundingDate: String(site.foundingYear),
     address: {
       "@type": "PostalAddress",
@@ -72,7 +71,6 @@ export function faqSchema(faqs: Faq[]): Json | null {
 }
 
 export function tourSchema(t: Tour, url: string, places: Place[]): Json {
-  const validFrom = new Date().toISOString().slice(0, 10);
   return {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
@@ -95,13 +93,9 @@ export function tourSchema(t: Tour, url: string, places: Place[]): Json {
     subjectOf: places.slice(0, 10).map((p) => ({ "@type": "TouristAttraction", name: p.name, url: absoluteUrl(`/places/${p.state}/${p.slug}`) })),
     offers: {
       "@type": "Offer",
-      price: t.priceFrom,
-      priceCurrency: "INR",
       availability: "https://schema.org/InStock",
-      validFrom,
       url: absoluteUrl(url),
       seller: { "@id": ORG_ID },
-      priceSpecification: { "@type": "UnitPriceSpecification", price: t.priceFrom, priceCurrency: "INR", referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitText: "person" } },
     },
   };
 }

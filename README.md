@@ -61,7 +61,7 @@ src/
   app/
     page.tsx                         Home
     [statePage]/page.tsx             /assam-tour-packages, /arunachal-pradesh-tour-packages, …
-    tours/page.tsx                   All tours + filters (state, duration, budget, activity)
+    tours/page.tsx                   All tours + filters (state, duration, activity)
     tours/[slug]/page.tsx            Tour detail (slider, itinerary, inclusions, booking, WhatsApp)
     places/[state]/[slug]/page.tsx   Place detail
     activities/…                     Activities index + detail
@@ -72,7 +72,7 @@ src/
     sitemap.ts, robots.ts
   components/                        cards, layout, lead (forms/WhatsApp), ui, seo
   data/
-    site.ts                          NAP, socials, price toggle
+    site.ts                          NAP, socials
     states.ts                        4 state landing pages (intro, seasons, how to reach, permits, FAQs…)
     places/<state>.ts                61 places
     activities/<state>.ts            42 activities
@@ -100,14 +100,14 @@ Each entity is a typed object — the TypeScript types in `src/types/index.ts` d
 
 - **Place:** `src/data/places/<state>.ts` — name, slug, state, district, nearest town, 150–300-word description, best season, ideal duration, permit notes, altitude, how to reach, lat/lng, 3–5 FAQs, related activities, nearby places, and the sources the facts were checked against.
 - **Activity:** `src/data/activities/<state>.ts` — same idea plus `difficulty` and `places`.
-- **Tour:** `src/data/tours.ts` — `states` (one or more), nights/days, `priceFrom` (INR pp, twin sharing), itinerary days (each with an icon key, places, overnight, meals, drive time), inclusions (with icon keys), exclusions, FAQs, `featured`, `legacyIds`.
+- **Tour:** `src/data/tours.ts` — `states` (one or more), nights/days, itinerary days (each with an icon key, places, overnight, meals, drive time), inclusions (with icon keys), exclusions, FAQs, `featured`, `legacyIds`.
 - **Guide:** `src/data/guides.ts` — body blocks (`h2`, `p`, `ul`, `ol`, `tip`). Inline `[anchor text](/internal/url)` and `**bold**` are supported.
 
 **`npm run build` fails** if any slug referenced by a place, activity, tour or guide (including inline guide links) does not exist, if a tour's itinerary length ≠ `days`, or if an entity has no images. This keeps internal linking intact.
 
 Icons: use any key from `src/lib/icons.ts` (e.g. `safari`, `trekking`, `rafting`, `camping`, `monastery`, `tea`, `birdwatching`, `festival`, `food`, `waterfall`, `hotel`, `transport`). Add new keys there only.
 
-**Prices.** The previous site had prices removed. Tours now carry an indicative `priceFrom` (used in the `Offer` schema). **Please confirm or edit every `priceFrom` in `src/data/tours.ts`.** To hide prices in the UI again, set `showPrices: false` in `src/data/site.ts`.
+**Prices.** Prices are intentionally not published anywhere on the site: tour cards and pages say **Price on request** and the enquiry / WhatsApp buttons collect the lead. The tour schema (`Offer`) carries availability only, no price. Government permit fees and entry fees quoted in place/permit copy are third-party facts and unchanged.
 
 **Reviews.** `src/data/testimonials.ts` is intentionally empty. Add only genuine reviews (e.g. copied with permission from your Google Business Profile). The block, and any `Review`/`AggregateRating` markup, stays hidden until real entries exist.
 
@@ -236,7 +236,7 @@ Route data lives in `src/data/tours.ts` (`start`, `end`, and per-day `places` / 
 
 **Structured data (JSON-LD)**
 - `TravelAgency`/`LocalBusiness` (home, contact, about) with NAP, geo, `areaServed` (4 states), `sameAs`.
-- `TouristTrip` + `Offer` (INR price, `InStock`) on tours; `TouristAttraction`/`Place` with geo on places; `TouristAttraction` on activities; `TouristDestination` + `ItemList` on state pages.
+- `TouristTrip` + `Offer` (availability only, no price) on tours; `TouristAttraction`/`Place` with geo on places; `TouristAttraction` on activities; `TouristDestination` + `ItemList` on state pages.
 - `FAQPage` on home, state, tour, place, activity and guide pages; `BreadcrumbList` site-wide; `Article` on guides.
 - `Review`/`AggregateRating` are **not** emitted (no genuine reviews yet).
 
@@ -278,7 +278,6 @@ Configured in `next.config.ts` with HTTP **301**:
 ## SEO / local launch checklist
 
 **Before go-live**
-- [ ] Confirm every `priceFrom` in `src/data/tours.ts` (or set `showPrices: false`).
 - [ ] Set all env vars in Vercel; deploy the Apps Script and run the smoke test above.
 - [ ] Point the domain to Vercel; make `NEXT_PUBLIC_SITE_URL` match the final host (www vs apex) and redirect the other host to it in Vercel → Domains.
 
@@ -347,5 +346,5 @@ Content was researched against state tourism sites, district (NIC) sites, Incred
 
 - **Permits:** Arunachal eILP fees/durations; Nagaland ILP (₹200 / 30 days domestic, ₹500 foreign at time of writing) and the Nagaland **PAP for foreigners** (reinstated Dec 2024; the state assembly asked for withdrawal in Sept 2026); Meghalaya's announced visitor-registration system (July 2026, not yet operational at time of writing).
 - **Seasonal dates:** Kaziranga opening phases, Ziro Festival of Music dates, Cherry Blossom Festival dates, Torgya/Losar dates (lunar calendar).
-- **Prices** (`priceFrom`) and inclusions for every tour.
+- **Inclusions** for every tour (prices are not published).
 - **Phone number display:** the old site linked `tel:+919876543210` while showing +91 6000060220; the new site uses **+91 6000060220** everywhere — confirm this is correct.

@@ -28,8 +28,6 @@ export const site = {
   googleMapsUrl: "https://maps.app.goo.gl/v3tA6QUwWBRQ4hV57",
   /** Google review link (from Business Profile → "Ask for reviews") — used for the footer "Rate us" button. */
   googleReviewUrl: "https://share.google/p1bqfRuObXJ44H2Fc",
-  /** Owner previously hid prices. Flip to false to hide "From ₹" on cards & pages (schema keeps Offer). */
-  showPrices: true,
   googleSiteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
   gaId: process.env.NEXT_PUBLIC_GA_ID || "",
   /** Browser key (referrer-restricted): Maps Static, Maps JavaScript, Maps Embed, Routes. Maps are hidden when empty. */
@@ -37,8 +35,5 @@ export const site = {
   /** Map ID for Advanced Markers; DEMO_MAP_ID works for development only. */
   mapId: process.env.NEXT_PUBLIC_GOOGLE_MAP_ID || "DEMO_MAP_ID",
 };
-
-export const formatINR = (n: number) =>
-  new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(n);
 
 export const absoluteUrl = (path = "/") => `${site.url}${path.startsWith("/") ? path : `/${path}`}`;

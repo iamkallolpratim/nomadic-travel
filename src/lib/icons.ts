@@ -5,7 +5,7 @@
 import {
   Award, Bed, Binoculars, Bird, BookOpen, Building2, Bus, Cable, Calendar, Camera, Car, Castle, Check,
   CloudRain, Coffee, Compass, Droplets, FileCheck, Fish, Flashlight, Flower2, Footprints, Gauge, Heart, Hotel,
-  IndianRupee, Landmark, Leaf, Map, MapPin, Mountain, MountainSnow, Music, Palette, PartyPopper, Plane,
+  Landmark, Leaf, Map, MapPin, Mountain, MountainSnow, Music, Palette, PartyPopper, Plane,
   Route, Sailboat, Scissors, ShieldCheck, Ship, Snowflake, Sparkles, Sprout, Sun, Sunrise, Tent, Ticket,
   Timer, TrainFront, TreePine, Trees, Users, Utensils, Waves, X, type LucideIcon,
 } from "lucide-react";
@@ -63,7 +63,6 @@ export const icons = {
   permit: FileCheck,
   ticket: Ticket,
   safety: ShieldCheck,
-  price: IndianRupee,
   // info panel
   season: Calendar,
   sun: Sun,

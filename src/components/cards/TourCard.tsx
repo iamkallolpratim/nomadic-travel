@@ -3,10 +3,9 @@ import { Check, Clock, MapPin } from "lucide-react";
 import { Gallery } from "@/components/ui/Gallery";
 import { WhatsAppButton } from "@/components/lead/WhatsAppButton";
 import { durationLabel, getState, tourUrl } from "@/lib/content";
-import { formatINR, site } from "@/data/site";
 import type { Tour } from "@/types";
 
-/** Card modelled on the reference: photo slider, title, duration, blurb, facilities chips, price box, Book Now. */
+/** Card modelled on the reference: photo slider, title, duration, blurb, facilities chips, "price on request" box, Book Now. */
 export function TourCard({ tour, headingLevel: H = "h3" }: { tour: Tour; headingLevel?: "h2" | "h3" }) {
   const states = tour.states.map((s) => getState(s).name).join(" · ");
   const facilities = tour.inclusions.slice(0, 4).map((i) => i.text.replace(/\s*\(.*?\)/g, ""));
@@ -36,7 +35,7 @@ export function TourCard({ tour, headingLevel: H = "h3" }: { tour: Tour; heading
         <div className="mt-3 rounded-2xl bg-forest-50/70 p-3.5">
           <div className="flex items-baseline justify-between gap-3">
             <p className="text-sm font-semibold text-forest-900">{tour.title.split(":")[1]?.trim() || tour.title}</p>
-            {site.showPrices && <p className="whitespace-nowrap text-sm font-bold text-forest-900">{formatINR(tour.priceFrom)}<span className="font-normal text-slate-600"> pp</span></p>}
+            <p className="whitespace-nowrap text-xs font-semibold text-forest-800">Price on request</p>
           </div>
           <p className="mt-1 text-xs text-slate-600">{tour.highlights.slice(0, 4).join(", ")}</p>
         </div>

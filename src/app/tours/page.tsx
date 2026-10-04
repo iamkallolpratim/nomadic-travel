@@ -9,8 +9,8 @@ import { buildMetadata } from "@/lib/seo";
 import { itemListSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "All Northeast India Tours | Filter by State & Budget",
-  description: `Browse ${tours.length} Northeast India tour packages across Assam, Arunachal Pradesh, Meghalaya and Nagaland. Filter by state, duration, budget and activity.`,
+  title: "All Northeast India Tours | Filter by State & Days",
+  description: `Browse ${tours.length} Northeast India tour packages across Assam, Arunachal Pradesh, Meghalaya and Nagaland. Filter by state, duration and activity.`,
   path: "/tours",
 });
 
@@ -34,7 +34,7 @@ export default function ToursPage() {
           </p>
         </header>
         <ToursExplorer
-          facets={sorted.map((t) => ({ slug: t.slug, states: t.states, days: t.days, price: t.priceFrom, activities: t.activities }))}
+          facets={sorted.map((t) => ({ slug: t.slug, states: t.states, days: t.days, activities: t.activities }))}
           cards={Object.fromEntries(sorted.map((t) => [t.slug, <TourCard key={t.slug} tour={t} headingLevel="h2" />]))}
           stateOptions={states.map((s) => ({ value: s.slug, label: s.name }))}
           activityOptions={activityOptions}

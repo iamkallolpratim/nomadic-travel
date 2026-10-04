@@ -54,12 +54,12 @@ export default function HomePage() {
             accent={s.accent.bg}
           />
         ))}
-        <LinkButton href="/tours" label="All Tour Packages" sub="Filter by state, days, budget & activity" icon="map" />
+        <LinkButton href="/tours" label="All Tour Packages" sub="Filter by state, days & activity" icon="map" />
         <LinkButton href="/tours/hornbill-festival-tour-4n5d" label="Hornbill Festival 2026" sub="1–10 December · Kohima, Nagaland" icon="festival" />
         <LinkButton href="/activities" label="Activities & Experiences" sub="Safaris, treks, rafting, festivals" icon="guide" />
         <LinkButton href="/travel-guide" label="Travel Guides" sub="Permits, seasons & itineraries" icon="history" />
         <LinkButton href="/#cars" label="Available Cars" sub="Sedans, MUVs & tempo travellers" icon="transport" />
-        <LinkButton href="/contact" label="Get a Free Quote" sub="Itinerary & price within 24 hours" icon="permit" />
+        <LinkButton href="/contact" label="Get a Free Quote" sub="Itinerary & quote within 24 hours" icon="permit" />
         <WhatsAppButton label="Chat on WhatsApp" className="btn-whatsapp w-full rounded-2xl py-3.5 text-[13px] uppercase tracking-[0.08em]" />
         <LinkButton href="/about" label="About Us" sub="Founded by travel creator Zeemi" icon="love" />
       </nav>

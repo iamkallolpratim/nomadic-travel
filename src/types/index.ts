@@ -101,8 +101,6 @@ export interface ItineraryDay {
   drive?: string;
 }
 
-export type BudgetBand = "budget" | "standard" | "premium";
-
 export interface Tour {
   slug: string;
   title: string;
@@ -117,9 +115,6 @@ export interface Tour {
   /** Route endpoints for maps */
   start: CityKey;
   end: CityKey;
-  /** Indicative starting price per person in INR, twin sharing */
-  priceFrom: number;
-  budget: BudgetBand;
   bestSeason: string;
   summary: string;
   overview: string[];

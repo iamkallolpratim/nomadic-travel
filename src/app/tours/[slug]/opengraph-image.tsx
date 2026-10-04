@@ -1,6 +1,5 @@
 import { durationLabel, getState, tours } from "@/lib/content";
 import { OG_SIZE, renderOg } from "@/lib/og";
-import { formatINR, site } from "@/data/site";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
@@ -14,7 +13,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   return renderOg({
     title: t.title,
     eyebrow: `${states} · ${durationLabel(t)}`,
-    meta: site.showPrices ? `From ${formatINR(t.priceFrom)} per person · ${t.startCity} → ${t.endCity}` : `${t.startCity} → ${t.endCity}`,
+    meta: `${t.startCity} → ${t.endCity} · Price on request`,
     file: t.images[0],
     accent: getState(t.states[0]).accent.hex,
   });
